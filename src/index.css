@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@import './styles/brand.css';
+
+/* Tokens de marca — alinhe com API/design system no futuro */
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --color-velaris-50: #faf5ff;
+  --color-velaris-100: #f3e8ff;
+  --color-velaris-200: #e9d5ff;
+  --color-velaris-300: #d8b4fe;
+  --color-velaris-400: #c084fc;
+  --color-velaris-500: #a855f7;
+  --color-velaris-600: #9333ea;
+  --color-velaris-700: #7e22ce;
+  --color-velaris-800: #6b21a8;
+  --color-velaris-900: #581c87;
+  --color-velaris-950: #3b0764;
+
+  --shadow-soft: 0 10px 40px -12px rgb(88 28 135 / 0.18);
+  --shadow-card: 0 4px 24px -4px rgb(15 23 42 / 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: var(--font-sans);
+  background: var(--color-velaris-50);
+  color: rgb(30 27 75);
+}
+
+#root {
+  min-height: 100dvh;
+}
