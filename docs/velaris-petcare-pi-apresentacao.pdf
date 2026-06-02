@@ -4,7 +4,7 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R] /Count 17 >>
+<< /Type /Pages /Kids [7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R] /Count 10 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
@@ -16,7 +16,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Length 1926 >>
+<< /Length 1863 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
@@ -24,21 +24,19 @@ BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao 
 BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (Projeto Integrador 2026/1 - ADS 1º período) Tj ET
 BT /F2 24 Tf 0.22 0.03 0.39 rg 44 770.1899999999999 Td (Velaris PetCare) Tj ET
 0.86 0.77 1 rg 44 748.1899999999999 507.28 1 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 736.1899999999999 Td (Documento explicativo para apresentação do PI: MVP de site/app demonstrativo para) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 718.4899999999999 Td (divulgação e agendamento de serviços pet comunitários.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 736.1899999999999 Td (MVP simples e navegável para divulgação de serviços pet comunitários, criado como recorte) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 718.4899999999999 Td (do tema Conecta Comunidade.) Tj ET
 BT /F2 13 Tf 0.38 0.13 0.66 rg 44 700.7899999999998 Td (Slogan) Tj ET
 BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 686.7899999999998 Td (Conectando cuidado e confiança para seu pet.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 669.0899999999998 Td (Tema do PI) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 655.0899999999998 Td (Conecta Comunidade: site ou aplicativo para divulgação de serviços e produtos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 637.3899999999998 Td (comunitários.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 619.6899999999997 Td (React + Vite) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 601.9899999999997 Td (React Router DOM) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 584.2899999999996 Td (Dados mockados) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 566.5899999999996 Td (Responsivo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 548.8899999999995 Td (Serviços comunitários) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 531.1899999999995 Td (Risk IT) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 513.4899999999994 Td (Base: PI20261-ADS1.pdf e implementação Velaris PetCare) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 495.78999999999945 Td (Junho/2026) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 669.0899999999998 Td (Ideia central) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 655.0899999999998 Td (Reunir em um só lugar informações básicas de pet shops, clínicas, vacinação, hotel pet,) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 637.3899999999998 Td (taxi dog e produtos pet.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 619.6899999999997 Td (Tecnologias) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 605.6899999999997 Td (React, Vite, React Router DOM, CSS/Tailwind e dados mockados.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 587.9899999999997 Td (Tipo de entrega) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 573.9899999999997 Td (Protótipo front-end, sem backend, feito para apresentação em banca.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 556.2899999999996 Td (Escopo) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 542.2899999999996 Td (Simples, direto e compatível com primeiro período.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 1) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Velaris PetCare) Tj ET
 endstream
@@ -47,865 +45,358 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 2980 >>
+<< /Length 2361 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (1. Visão geral) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Resumo executivo do projeto) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (O Velaris PetCare resolve, em escala de MVP, a dificuldade de tutores encontrarem serviços) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (pet confiáveis por bairro, categoria, horário, contato e cuidados especiais.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 716.7899999999998 Td (Problema comunitário) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 702.7899999999998 Td (Pequenos prestadores, clínicas, pet shops e serviços móveis divulgam informações de) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 685.0899999999998 Td (forma dispersa em redes sociais, grupos de mensagem e indicações informais. Isso reduz) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 667.3899999999998 Td (a confiança, dificulta comparação e prejudica o acesso rápido a serviços locais.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 649.6899999999997 Td (Solução proposta) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 635.6899999999997 Td (Um site/app demonstrativo que centraliza serviços pet locais, organiza categorias,) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 617.9899999999997 Td (permite busca simples, apresenta detalhes do estabelecimento, simula agendamento e) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 600.2899999999996 Td (recebe sugestões de novos serviços da comunidade.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 582.5899999999996 Td (Público-alvo) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 568.5899999999996 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 568.5899999999996 Td (Tutores de cães e gatos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 551.1899999999996 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 551.1899999999996 Td (Pet shops, clínicas e prestadores locais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 533.7899999999996 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 533.7899999999996 Td (Moradores que indicam serviços de bairro.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 516.3899999999996 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 516.3899999999996 Td (Administradores responsáveis por revisar dados.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 498.98999999999967 Td (Recorte escolhido) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 484.98999999999967 Td (Serviços pet comunitários em bairros de Goiânia, com foco em banho e tosa, clínica) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 467.2899999999997 Td (veterinária, hotel pet, taxi dog, vacinação e produtos pet.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 449.5899999999997 Td (Velaris PetCare Visão geral) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (1. Problema e solução) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Contexto comunitário) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Problema social) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 738.1899999999999 Td (Muitos serviços pequenos são divulgados de forma espalhada em grupos, redes sociais,) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 720.4899999999999 Td (cartazes e indicações. Isso dificulta para o tutor encontrar informações confiáveis de) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 702.7899999999998 Td (bairro, contato e horário.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 685.0899999999998 Td (Solução proposta) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 671.0899999999998 Td (Um site simples para listar serviços pet comunitários, com busca, filtros por categoria) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 653.3899999999998 Td (e bairro, página de detalhes, formulário de sugestão e painel administrativo apenas) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 635.6899999999997 Td (conceitual.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 617.9899999999997 Td (Público-alvo) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 603.9899999999997 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 603.9899999999997 Td (Tutores de pets que procuram serviços próximos.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 586.5899999999997 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 586.5899999999997 Td (Pet shops, clínicas veterinárias, lojas e prestadores locais.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 569.1899999999997 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 569.1899999999997 Td (Moradores que querem sugerir novos serviços para a comunidade.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 551.7899999999997 Td (Objetivo geral) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 537.7899999999997 Td (Criar um MVP funcional para centralizar serviços pet locais e facilitar o acesso da) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 520.0899999999997 Td (população a informações básicas e contatos.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 2) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Resumo executivo do projeto) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Contexto comunitário) Tj ET
 endstream
 endobj
 9 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
 endobj
 10 0 obj
-<< /Length 4431 >>
+<< /Length 2385 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (2. Objetivos e aderência ao enunciado) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Objetivos do MVP) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Objetivo geral) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 738.1899999999999 Td (Desenvolver um MVP funcional para centralizar serviços pet comunitários e facilitar o) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 720.4899999999999 Td (acesso dos tutores a informações confiáveis de contato, endereço, horário, categoria,) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 702.7899999999998 Td (avaliação e agendamento simulado.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 685.0899999999998 Td (Objetivos específicos) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 671.0899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 671.0899999999998 Td (Organizar serviços por categoria.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 653.6899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 653.6899999999998 Td (Permitir consulta rápida por bairro, categoria e palavra-chave.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 636.2899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 636.2899999999998 Td (Apresentar descrição, contato, horário e cuidados especiais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 618.8899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 618.8899999999999 Td (Disponibilizar formulário de sugestão comunitária.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 601.4899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 601.4899999999999 Td (Construir painel administrativo conceitual.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 584.0899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.0899999999999 Td (Documentar requisitos, riscos, viabilidade e impacto.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 566.6899999999999 Td (Funções mínimas exigidas e evidência no app) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 552.6899999999999 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 534.9899999999999 Td (| Requisito do PI) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 517.2899999999998 Td (| Implementação no Velaris PetCare) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 499.58999999999986 Td (| Arquivos/rotas) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 481.8899999999999 Td (| Página inicial com apresentação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 464.1899999999999 Td (| Home com slogan, problema comunitário, objetivo e CTA de busca.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 446.4899999999999 Td (| / - Home.jsx) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 428.7899999999999 Td (| Listagem por categoria) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 411.0899999999999 Td (| Cards de serviços com nome, categoria, bairro, avaliação, horário e detalhes.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 393.38999999999993 Td (| /servicos - Services.jsx) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 375.68999999999994 Td (| Busca simples) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 357.98999999999995 Td (| Busca por nome, bairro, categoria e palavra-chave usando mocks.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 340.28999999999996 Td (| SearchBar, CategoryFilter) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 322.59 Td (| Página de detalhes) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 304.89 Td (| Descrição, endereço, contato, serviços, avaliações e cuidados especiais.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 287.19 Td (| /servicos/:id) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 269.49 Td (| Formulário de sugestão) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 251.79000000000002 Td (| Campos completos e mensagem de sucesso fake.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 234.09000000000003 Td (| /sugerir-servico) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 216.39000000000004 Td (| Admin conceitual) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 198.69000000000005 Td (| Indicadores, sugestões, agendamentos e ações visuais de editar/remover.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 180.99000000000007 Td (| /admin) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 163.29000000000008 Td (Velaris PetCare Aderência ao PI) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (2. Escopo do MVP) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (O que foi implementado) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (|) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (| Requisito do PDF) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (| No site Velaris PetCare) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (| Página inicial) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 681.3899999999998 Td (| Home com nome, slogan, problema comunitário e botão para buscar serviços.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 663.6899999999997 Td (| Listagem por categoria) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 645.9899999999997 Td (| Rota /servicos com cards e categorias.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 628.2899999999996 Td (| Busca simples) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 610.5899999999996 Td (| Busca por nome, bairro, categoria ou palavra-chave.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 592.8899999999995 Td (| Detalhes do serviço) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 575.1899999999995 Td (| Rota /servicos/:id com descrição, endereço, contato e horário.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 557.4899999999994 Td (| Sugestão de novo serviço) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 539.7899999999994 Td (| Formulário com mensagem de sucesso fake.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 522.0899999999993 Td (| Admin conceitual) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 504.38999999999936 Td (| Painel simples com totais, sugestões e agendamentos simulados.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 486.6899999999994 Td (Fluxo básico) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 472.6899999999994 Td (Home) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 454.9899999999994 Td (Buscar) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 437.2899999999994 Td (Ver cards) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 419.5899999999994 Td (Detalhes) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 401.8899999999994 Td (Agendar ou sugerir) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 3) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Objetivos do MVP) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (O que foi implementado) Tj ET
 endstream
 endobj
 11 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 10 0 R >>
 endobj
 12 0 obj
-<< /Length 3713 >>
+<< /Length 2585 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (3. Escopo funcional implementado) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Mapa de navegação e funcionalidades) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Rotas públicas) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (3. Algoritmos e Programação) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Lógica usada no protótipo) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Conceitos aplicados) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 738.1899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (/ página inicial e apresentação.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (Listas/vetores para guardar serviços, categorias e sugestões.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 720.79 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (/servicos listagem, busca e filtros.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (Condicionais para verificar filtros preenchidos.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 703.39 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (/servicos/:id detalhes do serviço.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (Repetição com map para mostrar cards na tela.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 685.99 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (/agendamento/:id agendamento simulado.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (Filter para selecionar serviços compatíveis com a busca.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 668.59 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (/sugerir-servico sugestão comunitária.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 651.19 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 651.19 Td (/projeto-integrador documentação dentro do app.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 633.7900000000001 Td (Rotas complementares) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 619.7900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 619.7900000000001 Td (/login autenticação demonstrativa.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 602.3900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 602.3900000000001 Td (/cadastro cadastro demonstrativo.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 584.9900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.9900000000001 Td (/perfil perfil do tutor e pets.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 567.5900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 567.5900000000001 Td (/admin dashboard administrativo.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 550.1900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 550.1900000000002 Td (/pet-shops alias legado preservado.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 532.7900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 532.7900000000002 Td (/agendar alias legado preservado.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 515.3900000000002 Td (Fluxo principal do usuário) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 501.3900000000002 Td (Home) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 483.6900000000002 Td (Busca/filtro) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 465.99000000000024 Td (Detalhes) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 448.29000000000025 Td (Agendamento) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 430.59000000000026 Td (Confirmação fake) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 412.89000000000027 Td (Busca) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 398.89000000000027 Td (Filtra por texto livre, bairro, categoria e nota mínima.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 381.1900000000003 Td (Detalhes) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 367.1900000000003 Td (Mostra serviços oferecidos, avaliações e informações de cuidado.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 349.4900000000003 Td (Sugestão) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 335.4900000000003 Td (Coleta dados de novos estabelecimentos para revisão administrativa.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 317.7900000000003 Td (Velaris PetCare Escopo funcional) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (Estado do React para controlar busca e formulários.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 651.19 Td (Pseudocódigo da busca) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 637.19 Td (Começar com todos os serviços. Se houver texto digitado, procurar no nome, categoria,) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 619.49 Td (descrição e palavras-chave. Se houver bairro, manter apenas o bairro escolhido. Se) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 601.79 Td (houver categoria, manter apenas serviços daquela categoria. Por fim, exibir os cards.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 584.0899999999999 Td (Arquivos relacionados) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 570.0899999999999 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 570.0899999999999 Td (Services.jsx - busca e filtros.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 552.6899999999999 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 552.6899999999999 Td (SuggestService.jsx - formulário e sucesso fake.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 535.29 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 535.29 Td (Agendamento.jsx - agendamento simulado.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 517.89 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 517.89 Td (src/data - dados mockados.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 4) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Mapa de navegação e funcionalidades) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Lógica usada no protótipo) Tj ET
 endstream
 endobj
 13 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 12 0 R >>
 endobj
 14 0 obj
-<< /Length 4114 >>
+<< /Length 2959 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (4. Arquitetura front-end) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Organização técnica do projeto) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Tecnologias) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (4. Engenharia de Software) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Requisitos, casos de uso e organização) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Requisitos funcionais) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 738.1899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (React para componentização da interface.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (Listar serviços por categoria.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 720.79 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (Vite para ambiente de desenvolvimento e build.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (Buscar por nome, bairro e palavra-chave.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 703.39 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (React Router DOM para navegação.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (Mostrar detalhes do serviço.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 685.99 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (CSS/Tailwind organizado para layout responsivo.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (Permitir sugestão de novo serviço.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 668.59 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (Dados mockados sem backend.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 651.19 Td (Decisões de arquitetura) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (Mostrar painel administrativo conceitual.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 651.19 Td (Requisitos não funcionais) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 637.19 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 637.19 Td (Dados centralizados em src/data .) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 637.19 Td (Interface simples e responsiva.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 619.7900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 619.7900000000001 Td (Rotas centralizadas em src/routes .) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 619.7900000000001 Td (Dados mockados, sem backend.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 602.3900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 602.3900000000001 Td (Componentes reutilizáveis em src/components .) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 602.3900000000001 Td (Navegação com React Router DOM.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 584.9900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.9900000000001 Td (Páginas separadas por responsabilidade em src/pages .) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 567.5900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 567.5900000000001 Td (Aliases preservam compatibilidade com nomes antigos.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 550.1900000000002 Td (Estrutura de pastas atendida) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 536.1900000000002 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 518.4900000000001 Td (| Pasta) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 500.79000000000013 Td (| Conteúdo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 483.09000000000015 Td (| Exemplos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 465.39000000000016 Td (| components) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 447.69000000000017 Td (| Elementos reutilizáveis.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 429.9900000000002 Td (| Navbar, Footer, ServiceCard, SearchBar, CategoryFilter, StatsCard.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 412.2900000000002 Td (| pages) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 394.5900000000002 Td (| Telas navegáveis.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 376.8900000000002 Td (| Home, Services, ServiceDetails, SuggestService, DashboardAdmin, ProjectInfo.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 359.1900000000002 Td (| data) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 341.49000000000024 Td (| Massa de dados mockada.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 323.79000000000025 Td (| services, categories, stats, risks, appointments, reviews.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 306.09000000000026 Td (| routes) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 288.39000000000027 Td (| Mapa de rotas.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 270.6900000000003 Td (| AppRoutes.jsx e paths.js.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 252.9900000000003 Td (| styles) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 235.2900000000003 Td (| Estilos globais e marca.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 217.59000000000032 Td (| global.css e brand.css.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 199.89000000000033 Td (Velaris PetCare Arquitetura) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.9900000000001 Td (Visual coerente com a identidade Velaris.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 567.5900000000001 Td (Casos de uso resumidos) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 553.5900000000001 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 553.5900000000001 Td (O tutor busca um serviço pet.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 536.1900000000002 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 536.1900000000002 Td (O tutor abre os detalhes do estabelecimento.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 518.7900000000002 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 518.7900000000002 Td (O tutor simula um agendamento.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 501.3900000000002 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 501.3900000000002 Td (O morador sugere um novo serviço.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 483.99000000000024 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 483.99000000000024 Td (O administrador visualiza dados simulados.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 5) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Organização técnica do projeto) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Requisitos, casos de uso e organização) Tj ET
 endstream
 endobj
 15 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 14 0 R >>
 endobj
 16 0 obj
-<< /Length 4645 >>
+<< /Length 2264 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (5. Algoritmos e Programação) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Modelagem lógica da solução) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Conceitos aplicados) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 738.1899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (Vetores/listas para armazenar serviços, categorias, avaliações e sugestões.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 720.79 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (Estruturas condicionais para aplicar filtros somente quando preenchidos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 703.39 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (Estruturas de repetição por map para renderizar cards.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 685.99 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (Uso de filter , sort e Set .) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 668.59 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (Estados React para controlar busca, formulário e sucesso fake.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 651.19 Td (Dados usados na lógica) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 637.19 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 637.19 Td (Serviços pet com nome, categoria, bairro, contato e horário.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 619.7900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 619.7900000000001 Td (Categorias padronizadas com IDs estáveis.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 602.3900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 602.3900000000001 Td (Agendamentos simulados para usuário e administrador.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 584.9900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.9900000000001 Td (Riscos e estatísticas usados em páginas institucionais.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 567.5900000000001 Td (Pseudocódigo da busca) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 553.5900000000001 Td (lista = todosOsServicos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 535.8900000000001 Td (se termoDeBusca existe:) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 518.19 Td (manter itens cujo nome, categoria, bairro, serviços ou palavras-chave contenham o termo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 500.49000000000007 Td (se bairro existe:) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 482.7900000000001 Td (manter itens do bairro selecionado) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 465.0900000000001 Td (se categoria existe:) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 447.3900000000001 Td (manter itens cujo serviceIds contenha a categoria) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 429.6900000000001 Td (se avaliação mínima existe:) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 411.9900000000001 Td (manter itens com nota maior ou igual ao mínimo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 394.29000000000013 Td (ordenar por nota, nome ou bairro) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 376.59000000000015 Td (exibir cards filtrados) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 358.89000000000016 Td (Evidências no código) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 344.89000000000016 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 327.19000000000017 Td (| Arquivo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 309.4900000000002 Td (| O que demonstra) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 291.7900000000002 Td (| Services.jsx) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 274.0900000000002 Td (| Busca, filtros, ordenação, URLSearchParams e renderização condicional.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 256.3900000000002 Td (| SuggestService.jsx) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 238.69000000000023 Td (| Estado de formulário, validação HTML e mensagem de sucesso simulada.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 220.99000000000024 Td (| Agendamento.jsx) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 203.29000000000025 Td (| Seleção de estabelecimento, serviço, data, horário e pet.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 185.59000000000026 Td (| stats.js) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 167.89000000000027 Td (| Contagem por categoria, total de serviços e uso de Set para bairros únicos.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 150.19000000000028 Td (Velaris PetCare Algoritmos) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (5. Matemática Aplicada Computacional) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Dados simples e contagens) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (6) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 738.1899999999999 Td (serviços cadastrados nos mocks.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 720.4899999999999 Td (6) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 706.4899999999999 Td (categorias principais.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 688.7899999999998 Td (3) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 674.7899999999998 Td (sugestões simuladas.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 657.0899999999998 Td (Categorias usadas) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 643.0899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 643.0899999999998 Td (Banho e Tosa) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 625.6899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 625.6899999999998 Td (Clínica Veterinária) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 608.2899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 608.2899999999998 Td (Hotel Pet) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 590.8899999999999 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 590.8899999999999 Td (Taxi Dog) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 573.4899999999999 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 573.4899999999999 Td (Vacinação) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 556.0899999999999 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 556.0899999999999 Td (Produtos Pet) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 538.6899999999999 Td (Exemplo de cálculo) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 524.6899999999999 Td (Como existem 6 serviços e 6 categorias, cada categoria representa 1/6 do catálogo mockado,) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 506.98999999999995 Td (ou aproximadamente 16,67%. Essa contagem aparece em cards e barras simples.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 6) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Modelagem lógica da solução) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Dados simples e contagens) Tj ET
 endstream
 endobj
 17 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 16 0 R >>
 endobj
 18 0 obj
-<< /Length 5135 >>
+<< /Length 2674 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (6. Engenharia de Software) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Requisitos e organização do projeto) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Requisitos funcionais) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (6. Governança de TI e Empreendedorismo) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Viabilidade, impacto e Risk IT) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Viabilidade) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 738.1899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (RF01 - Exibir página inicial com problema, objetivo e chamada para busca.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (Projeto pequeno, feito em front-end.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 720.79 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (RF02 - Listar serviços por categoria.) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (Não depende de servidor ou banco de dados nesta etapa.) Tj ET
 BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 703.39 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (RF03 - Buscar por nome, bairro, categoria e palavra-chave.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 685.99 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (RF04 - Exibir página de detalhes do serviço.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 668.59 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (RF05 - Permitir agendamento simulado.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 651.19 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 651.19 Td (RF06 - Permitir sugestão de novo serviço.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 633.7900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 633.7900000000001 Td (RF07 - Exibir dashboard administrativo conceitual.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 616.3900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 616.3900000000001 Td (RF08 - Exibir conteúdo de PI, estatísticas e governança.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 598.9900000000001 Td (Requisitos não funcionais) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 584.9900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.9900000000001 Td (RNF01 - Interface responsiva para mobile e desktop.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 567.5900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 567.5900000000001 Td (RNF02 - Navegação simples e consistente.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 550.1900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 550.1900000000002 Td (RNF03 - Código componentizado e organizado.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 532.7900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 532.7900000000002 Td (RNF04 - Uso de dados mockados, sem backend.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 515.3900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 515.3900000000002 Td (RNF05 - Visual moderno, premium e acolhedor.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 497.99000000000024 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 497.99000000000024 Td (RNF06 - Build e lint sem erros.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 480.59000000000026 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 480.59000000000026 Td (RNF07 - Rotas compatíveis com o escopo do PI.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 463.1900000000003 Td (Casos de uso resumidos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 449.1900000000003 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 431.4900000000003 Td (| Caso de uso) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 413.7900000000003 Td (| Ator) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 396.0900000000003 Td (| Fluxo principal) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 378.3900000000003 Td (| Buscar serviço pet) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 360.69000000000034 Td (| Tutor) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 342.99000000000035 Td (| Acessa listagem, digita termo, escolhe filtros e compara cards.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 325.29000000000036 Td (| Consultar detalhes) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 307.5900000000004 Td (| Tutor) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 289.8900000000004 Td (| Abre um serviço, consulta endereço, contato, horário e cuidados.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 272.1900000000004 Td (| Agendar serviço) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 254.4900000000004 Td (| Tutor) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 236.79000000000042 Td (| Seleciona serviço, data, horário, pet e confirma fluxo fake.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 219.09000000000043 Td (| Sugerir estabelecimento) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 201.39000000000044 Td (| Morador) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 183.69000000000045 Td (| Preenche formulário com dados de um serviço local.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 165.99000000000046 Td (| Revisar painel) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 148.29000000000048 Td (| Administrador) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 130.5900000000005 Td (| Consulta totais, sugestões e agendamentos simulados.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 112.89000000000048 Td (Velaris PetCare Engenharia de Software) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (Pode evoluir futuramente para sistema real.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 685.99 Td (Impacto na comunidade) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 671.99 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 671.99 Td (Facilita encontrar serviços pet locais.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 654.59 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 654.59 Td (Dá visibilidade a pequenos negócios.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 637.19 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 637.19 Td (Ajuda tutores a comparar contatos, horários e categorias.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 619.7900000000001 Td (Riscos e ações preventivas) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 605.7900000000001 Td (|) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 588.09 Td (| Risco) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 570.39 Td (| Ação preventiva) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 552.6899999999999 Td (| Dados incorretos de estabelecimentos) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 534.9899999999999 Td (| Revisão administrativa antes de publicar.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 517.2899999999998 Td (| Informações falsas) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 499.58999999999986 Td (| Fila de revisão para sugestões da comunidade.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 481.8899999999999 Td (| Exposição de dados) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 464.1899999999999 Td (| Coletar apenas informações necessárias.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 446.4899999999999 Td (| Sistema fora do ar no futuro) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 428.7899999999999 Td (| Usar hospedagem confiável e backup.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 7) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Requisitos e organização do projeto) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Viabilidade, impacto e Risk IT) Tj ET
 endstream
 endobj
 19 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 18 0 R >>
 endobj
 20 0 obj
-<< /Length 4736 >>
+<< /Length 2226 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (7. Engenharia de Software) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Planejamento, qualidade e validação) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Metodologia sugerida aplicada) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 738.1899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 738.1899999999999 Td (Escolha do problema comunitário.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 720.79 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 720.79 Td (Definição do recorte: serviços pet locais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 703.39 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 703.39 Td (Levantamento de requisitos do enunciado.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 685.99 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 685.99 Td (Modelagem dos dados mockados.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 668.59 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 668.59 Td (Construção das telas e rotas.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 651.19 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 651.19 Td (Validação com build, lint e navegador.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 633.7900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 633.7900000000001 Td (Documentação para apresentação.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 616.3900000000001 Td (Critérios de qualidade) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 602.3900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 602.3900000000001 Td (Aderência ao tema comunitário.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 584.9900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 584.9900000000001 Td (Clareza de navegação e conteúdo.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 567.5900000000001 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 567.5900000000001 Td (Responsividade sem overflow horizontal.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 550.1900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 550.1900000000002 Td (Componentes reutilizáveis e dados separados da UI.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 532.7900000000002 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 532.7900000000002 Td (Rotas principais testadas manualmente.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 515.3900000000002 Td (Validações realizadas) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 501.3900000000002 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 483.6900000000002 Td (| Validação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 465.99000000000024 Td (| Resultado) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 448.29000000000025 Td (| npm run build) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 430.59000000000026 Td (| Build de produção gerado com sucesso.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 412.89000000000027 Td (| npm run lint) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 395.1900000000003 Td (| ESLint executado sem erros.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 377.4900000000003 Td (| Navegação pública) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 359.7900000000003 Td (| Home, serviços, detalhes, agendamento, sugestão, PI e admin conferidos.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 342.0900000000003 Td (| Responsividade) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 324.3900000000003 Td (| Home, serviços e PI checados em largura mobile de 390px sem overflow.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 306.69000000000034 Td (Melhorias futuras) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 292.69000000000034 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 292.69000000000034 Td (Backend com API REST e banco de dados.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 275.29000000000036 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 275.29000000000036 Td (Autenticação real para tutor e administrador.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 257.8900000000004 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 257.8900000000004 Td (CRUD real de serviços, sugestões e agendamentos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 240.49000000000038 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 240.49000000000038 Td (Validação administrativa com histórico de alterações.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 223.09000000000037 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 223.09000000000037 Td (Mapa de localização e integração com WhatsApp.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 205.69000000000037 Td (Velaris PetCare Qualidade) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (7. Business Model Canvas simples) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Canvas da proposta) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (| Público-alvo) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (| Tutores de pets e prestadores locais.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (| Proposta de valor) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (| Encontrar serviços pet de bairro de forma simples e organizada.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 681.3899999999998 Td (| Canais) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 663.6899999999997 Td (| Site/app responsivo e contato por telefone ou WhatsApp.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 645.9899999999997 Td (| Relacionamento) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 628.2899999999996 Td (| Busca simples, sugestão da comunidade e revisão administrativa.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 610.5899999999996 Td (| Receita futura) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 592.8899999999995 Td (| Destaques para estabelecimentos e parcerias locais.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 575.1899999999995 Td (| Recursos) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 557.4899999999994 Td (| Catálogo de serviços, categorias e avaliações.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 539.7899999999994 Td (| Atividades) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 522.0899999999993 Td (| Cadastrar, revisar e divulgar serviços pet.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 504.38999999999936 Td (| Parcerias) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 486.6899999999994 Td (| Pet shops, clínicas, lojas pet, ONGs e prestadores.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 468.9899999999994 Td (| Custos) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 451.2899999999994 Td (| Hospedagem, domínio, manutenção e divulgação.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 8) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Planejamento, qualidade e validação) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Canvas da proposta) Tj ET
 endstream
 endobj
 21 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 20 0 R >>
 endobj
 22 0 obj
-<< /Length 4598 >>
+<< /Length 2014 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (8. Matemática Aplicada Computacional) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Leitura de dados, contagens e indicadores) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (6 serviços cadastrados) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (6 categorias do escopo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (6 agendamentos simulados) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (3 sugestões recebidas) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 681.3899999999998 Td (Quantidade de serviços por categoria) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 667.3899999999998 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 649.6899999999997 Td (| Categoria) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 631.9899999999997 Td (| Quantidade) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 614.2899999999996 Td (| Representação simples) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 596.5899999999996 Td (| Banho e Tosa) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 578.8899999999995 Td (| 1) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 561.1899999999995 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 543.4899999999994 Td (| Clínica Veterinária) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 525.7899999999994 Td (| 1) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 508.0899999999994 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 490.3899999999994 Td (| Hotel Pet) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 472.68999999999943 Td (| 1) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 454.98999999999944 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 437.28999999999945 Td (| Taxi Dog) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 419.58999999999946 Td (| 1) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 401.8899999999995 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 384.1899999999995 Td (| Vacinação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 366.4899999999995 Td (| 1) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 348.7899999999995 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 331.0899999999995 Td (| Produtos Pet) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 313.38999999999953 Td (| 1) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 295.68999999999954 Td (|) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 277.98999999999955 Td (Conjuntos numéricos e operações) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 263.98999999999955 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 263.98999999999955 Td (Conjunto S: todos os serviços cadastrados.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 246.58999999999955 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 246.58999999999955 Td (Conjunto C: categorias disponíveis.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 229.18999999999954 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 229.18999999999954 Td (Conjunto B: bairros atendidos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 211.78999999999954 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 211.78999999999954 Td (Interseção: serviços que atendem uma categoria e um bairro.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 194.38999999999953 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 194.38999999999953 Td (União: resultados por palavra-chave somados a resultados por bairro.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 176.98999999999953 Td (Indicadores possíveis) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 162.98999999999953 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 162.98999999999953 Td (Quantidade de serviços por categoria.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 145.58999999999952 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 145.58999999999952 Td (Média de avaliação por categoria.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 128.18999999999951 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 128.18999999999951 Td (Volume de sugestões por bairro.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 110.78999999999951 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 110.78999999999951 Td (Taxa simulada de conversão: visitas em detalhes para agendamentos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 93.3899999999995 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 93.3899999999995 Td (Ranking de buscas mais frequentes.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 75.9899999999995 Td (Velaris PetCare Matemática Aplicada) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (8. Esboço do site antes do código) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Wireframe usado como ideia inicial) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (Home) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (Busca simples) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (Cards) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (Detalhes) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 681.3899999999998 Td (Sugestão/Admin) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 663.6899999999997 Td (Tela inicial) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 649.6899999999997 Td (Nome do projeto, slogan, resumo do problema e botão para buscar serviços.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 631.9899999999997 Td (Listagem) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 617.9899999999997 Td (Campo de busca, filtros simples por bairro/categoria e cards de estabelecimentos.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 600.2899999999996 Td (Detalhes) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 586.2899999999996 Td (Nome, descrição, endereço, contato, horário, serviços e botão de agendamento.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 568.5899999999996 Td (Admin conceitual) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 554.5899999999996 Td (Totais, sugestões recebidas e agendamentos simulados, sem backend real.) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 536.8899999999995 Td (Esse esboço representa o planejamento visual do site antes da implementação: poucas telas,) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 519.1899999999995 Td (fluxo simples e foco na clareza da solução para a comunidade.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 9) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Leitura de dados, contagens e indicadores) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Wireframe usado como ideia inicial) Tj ET
 endstream
 endobj
 23 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 22 0 R >>
 endobj
 24 0 obj
-<< /Length 3479 >>
+<< /Length 1816 >>
 stream
 0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
 BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
 0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (9. Matemática Aplicada Computacional) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Exemplos de cálculo para a apresentação) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Distribuição percentual) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 738.1899999999999 Td (Como há 6 serviços e 6 categorias, cada categoria representa inicialmente:) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 720.4899999999999 Td (1 / 6 x 100 = 16,67% do catálogo mockado.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 702.7899999999998 Td (Média simples de avaliações) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 688.7899999999998 Td (As notas mockadas podem gerar média geral para comparar a qualidade percebida dos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 671.0899999999998 Td (estabelecimentos.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 653.3899999999998 Td (\(4,9 + 4,8 + 4,7 + 4,6 + 4,5 + 4,7\) / 6 = 4,70) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 635.6899999999997 Td (Aplicação prática no MVP) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 621.6899999999997 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 603.9899999999997 Td (| Conceito) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 586.2899999999996 Td (| Aplicação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 568.5899999999996 Td (| Benefício) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 550.8899999999995 Td (| Contagem) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 533.1899999999995 Td (| Total de serviços, categorias, bairros, sugestões e agendamentos.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 515.4899999999994 Td (| Mostra dimensão do catálogo e evolução do projeto.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 497.78999999999945 Td (| Classificação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 480.08999999999946 Td (| Ordenação por nota, nome e bairro.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 462.3899999999995 Td (| Facilita comparação para o tutor.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 444.6899999999995 Td (| Filtragem) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 426.9899999999995 Td (| Interseção entre categoria, bairro e palavra-chave.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 409.2899999999995 Td (| Reduz ruído e melhora a busca.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 391.5899999999995 Td (| Indicadores) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 373.88999999999953 Td (| Cards estatísticos no admin e na página do PI.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 356.18999999999954 Td (| Apoia decisões administrativas.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 338.48999999999955 Td (Possível gráfico em evolução futura) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 324.48999999999955 Td (Com backend, os acessos e buscas poderiam alimentar gráficos reais: serviços mais) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 306.78999999999957 Td (procurados, bairros com maior demanda, horários mais agendados e categorias com baixa) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 289.0899999999996 Td (oferta. Esses indicadores ajudariam a comunidade a priorizar novos cadastros.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 271.3899999999996 Td (Velaris PetCare Cálculos) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (9. Conclusão) Tj ET
+BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Resultado do protótipo) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (O Velaris PetCare está coerente com o PDF do Projeto Integrador porque entrega um MVP) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (simples, funcional e conectado ao tema comunitário. O projeto não tenta ser um sistema) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (completo: ele funciona como esboço navegável para demonstrar a solução, os requisitos e a) Tj ET
+BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (integração com as disciplinas.) Tj ET
+BT /F2 13 Tf 0.38 0.13 0.66 rg 44 681.3899999999998 Td (Próximos passos futuros) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 667.3899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 667.3899999999998 Td (Validar a ideia com tutores e prestadores reais.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 649.9899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 649.9899999999998 Td (Criar backend e banco de dados somente em uma etapa futura.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 632.5899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 632.5899999999998 Td (Transformar sugestões em cadastros reais.) Tj ET
+BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 615.1899999999998 Td (-) Tj ET
+BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 615.1899999999998 Td (Melhorar autenticação, segurança e administração.) Tj ET
 BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 10) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Exemplos de cálculo para a apresentação) Tj ET
+BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Resultado do protótipo) Tj ET
 endstream
 endobj
 25 0 obj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 24 0 R >>
 endobj
-26 0 obj
-<< /Length 4041 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (10. Governança de TI e Empreendedorismo) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Problema social, viabilidade e valor comunitário) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Análise do problema social) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 738.1899999999999 Td (A informação pet local é fragmentada. Tutores dependem de indicações, prints,) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 720.4899999999999 Td (mensagens antigas e redes sociais. Isso cria barreiras de acesso, principalmente para) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 702.7899999999998 Td (quem precisa resolver uma demanda com urgência, como vacinação, consulta ou transporte.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 685.0899999999998 Td (Viabilidade da solução) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 671.0899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 671.0899999999998 Td (Baixo custo inicial por usar front-end com dados mockados.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 653.6899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 653.6899999999998 Td (Escopo enxuto para primeiro período.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 636.2899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 636.2899999999998 Td (Possibilidade de evoluir para backend e banco de dados.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 618.8899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 618.8899999999999 Td (Valor claro para tutores e pequenos negócios.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 601.4899999999999 Td (Valor para a comunidade) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 587.4899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 587.4899999999999 Td (Facilita descoberta de prestadores locais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 570.0899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 570.0899999999999 Td (Ajuda pequenos negócios a aparecerem de forma organizada.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 552.6899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 552.6899999999999 Td (Reduz tempo de busca dos tutores.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 535.29 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 535.29 Td (Promove confiança por avaliações e revisão administrativa.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 517.89 Td (Impacto esperado) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 503.89 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 503.89 Td (Mais visibilidade para serviços de bairro.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 486.49 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 486.49 Td (Melhor acesso a cuidados preventivos para pets.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 469.09000000000003 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 469.09000000000003 Td (Base para parcerias com ONGs, clínicas e comércios locais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 451.69000000000005 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 451.69000000000005 Td (Comunidade participando por meio de sugestões.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 434.2900000000001 Td (Diferencial empreendedor) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 420.2900000000001 Td (O Velaris PetCare pode funcionar como marketplace local de confiança, começando por) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 402.5900000000001 Td (divulgação e agendamento demonstrativo e evoluindo para planos de visibilidade para) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 384.8900000000001 Td (empresas, integração com WhatsApp, parcerias com clínicas e relatórios de demanda.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 367.1900000000001 Td (Velaris PetCare Governança e Empreendedorismo) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 11) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Problema social, viabilidade e valor comunitário) Tj ET
-endstream
-endobj
-27 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 26 0 R >>
-endobj
-28 0 obj
-<< /Length 2905 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (11. Business Model Canvas) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Canvas da proposta) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (| Bloco) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (| Velaris PetCare) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (| Segmentos de clientes) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 681.3899999999998 Td (| Tutores de pets, pet shops, clínicas veterinárias, hotéis pet, taxi dog e lojas pet.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 663.6899999999997 Td (| Proposta de valor) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 645.9899999999997 Td (| Centralizar busca, confiança, contato, horários e agendamento de serviços pet locais.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 628.2899999999996 Td (| Canais) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 610.5899999999996 Td (| Site/app responsivo, links compartilháveis, WhatsApp e redes sociais em evolução futura.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 592.8899999999995 Td (| Relacionamento) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 575.1899999999995 Td (| Autoatendimento para tutores, sugestões comunitárias e revisão administrativa.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 557.4899999999994 Td (| Fontes de receita futuras) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 539.7899999999994 Td (| Planos de destaque, assinatura para prestadores, anúncios locais e parcerias.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 522.0899999999993 Td (| Recursos principais) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 504.38999999999936 Td (| Catálogo de serviços, base de avaliações, sistema de busca, marca e equipe de revisão.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 486.6899999999994 Td (| Atividades-chave) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 468.9899999999994 Td (| Cadastro, curadoria, atualização de dados, melhoria da busca e suporte ao usuário.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 451.2899999999994 Td (| Parcerias principais) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 433.5899999999994 Td (| Pet shops, clínicas, ONGs, associações de bairro, fornecedores e profissionais autônomos.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 415.8899999999994 Td (| Estrutura de custos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 398.18999999999943 Td (| Hospedagem, domínio, manutenção, suporte, design, desenvolvimento e divulgação local.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 380.48999999999944 Td (Velaris PetCare Business Model Canvas) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 12) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Canvas da proposta) Tj ET
-endstream
-endobj
-29 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 28 0 R >>
-endobj
-30 0 obj
-<< /Length 3788 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (12. Segurança e Governança - Risk IT) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Riscos, impactos e ações preventivas) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (| Risco identificado) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (| Impacto) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (| Ação preventiva) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 681.3899999999998 Td (| Dados incorretos de estabelecimentos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 663.6899999999997 Td (| Tutor pode se deslocar para endereço ou horário errado.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 645.9899999999997 Td (| Validação manual antes da publicação e revisão periódica dos cadastros.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 628.2899999999996 Td (| Informações falsas ou maliciosas) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 610.5899999999996 Td (| Perda de confiança e possível dano ao tutor ou prestador.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 592.8899999999995 Td (| Fila administrativa para revisar sugestões e canal de denúncia.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 575.1899999999995 Td (| Indisponibilidade do sistema) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 557.4899999999994 Td (| Usuários não conseguem consultar serviços ou agendar.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 539.7899999999994 Td (| Hospedagem confiável, backup dos dados e monitoramento básico.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 522.0899999999993 Td (| Exposição de dados de usuários) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 504.38999999999936 Td (| Vazamento de contato, endereço e histórico de atendimento.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 486.6899999999994 Td (| Coleta mínima de dados, controle de acesso e boas práticas de privacidade.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 468.9899999999994 Td (| Agendamento duplicado) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 451.2899999999994 Td (| Conflito de horários e frustração do tutor.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 433.5899999999994 Td (| Em backend futuro, validar disponibilidade antes da confirmação.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 415.8899999999994 Td (| Avaliações manipuladas) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 398.18999999999943 Td (| Decisões ruins por notas artificiais.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 380.48999999999944 Td (| Vincular avaliação a atendimento confirmado e detectar comportamento suspeito.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 362.78999999999945 Td (Aplicação conceitual do Risk IT) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 348.78999999999945 Td (Governança de risco) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 334.78999999999945 Td (Definir responsáveis por aprovar cadastros, revisar sugestões e manter políticas de uso.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 317.08999999999946 Td (Avaliação de risco) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 303.08999999999946 Td (Identificar riscos por probabilidade e impacto antes de publicar novas funções.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 285.3899999999995 Td (Resposta ao risco) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 271.3899999999995 Td (Prevenir, mitigar, transferir ou aceitar riscos com plano claro de acompanhamento.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 253.6899999999995 Td (Velaris PetCare Risk IT) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 13) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Riscos, impactos e ações preventivas) Tj ET
-endstream
-endobj
-31 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 30 0 R >>
-endobj
-32 0 obj
-<< /Length 3088 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (13. Dados mockados e categorias) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Base demonstrativa do MVP) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (Categorias implementadas) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 738.1899999999999 Td (Banho e Tosa) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 724.1899999999999 Td (Higiene, estética e cuidados de pelo.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 706.4899999999999 Td (Clínica Veterinária) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 692.4899999999999 Td (Consultas, exames e orientação.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 674.7899999999998 Td (Hotel Pet) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 660.7899999999998 Td (Hospedagem, daycare e recreação.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 643.0899999999998 Td (Taxi Dog) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 629.0899999999998 Td (Transporte pet com agendamento.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 611.3899999999998 Td (Vacinação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 597.3899999999998 Td (Controle e aplicação de vacinas.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 579.6899999999997 Td (Produtos Pet) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 565.6899999999997 Td (Rações, acessórios e itens de cuidado.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 547.9899999999997 Td (Campos principais dos serviços) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 533.9899999999997 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 516.2899999999996 Td (| Campo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 498.58999999999963 Td (| Uso na interface) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 480.88999999999965 Td (| id | Identifica rotas de detalhes e agendamento.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 465.88999999999965 Td (| name | Nome do estabelecimento no card e detalhe.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 450.88999999999965 Td (| category / categoryId | Filtro por categoria e exibição no card.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 435.88999999999965 Td (| neighborhood / address | Busca por bairro e informação de deslocamento.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 420.88999999999965 Td (| rating / reviewCount | Comparação por avaliação.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 405.88999999999965 Td (| hours / hoursSummary | Horário completo e resumo no card.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 390.88999999999965 Td (| services | Lista de serviços oferecidos.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 375.88999999999965 Td (| specialCare | Orientações de cuidado especial.) Tj ET
-BT /F3 9.2 Tf 0.18 0.2 0.27 rg 44 360.88999999999965 Td (| keywords | Busca por palavra-chave.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 345.88999999999965 Td (Velaris PetCare Dados mockados) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 14) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Base demonstrativa do MVP) Tj ET
-endstream
-endobj
-33 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 32 0 R >>
-endobj
-34 0 obj
-<< /Length 3748 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (14. Integração com as disciplinas) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Relação entre matérias e evidências do projeto) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (| Disciplina) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (| Como aparece no projeto) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (| Evidência) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 681.3899999999998 Td (| Algoritmos e Programação) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 663.6899999999997 Td (| Lógica de busca, filtros, renderização de listas, estados de formulário e dados.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 645.9899999999997 Td (| Services.jsx, SuggestService.jsx, Agendamento.jsx.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 628.2899999999996 Td (| Engenharia de Software) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 610.5899999999996 Td (| Levantamento de requisitos, casos de uso, rotas, componentização e validação.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 592.8899999999995 Td (| ProjectInfo.jsx, AppRoutes.jsx, componentes reutilizáveis.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 575.1899999999995 Td (| Matemática Aplicada Computacional) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 557.4899999999994 Td (| Contagens, percentuais, conjuntos, indicadores e gráficos simples por cards/barras.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 539.7899999999994 Td (| stats.js, DashboardAdmin.jsx, ProjectInfo.jsx.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 522.0899999999993 Td (| Governança de TI) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 504.38999999999936 Td (| Riscos, impacto, ações preventivas, privacidade e revisão administrativa.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 486.6899999999994 Td (| risks.js, ProjectInfo.jsx, DashboardAdmin.jsx.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 468.9899999999994 Td (| Empreendedorismo) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 451.2899999999994 Td (| Viabilidade, proposta de valor, impacto, público-alvo e Business Model Canvas.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 433.5899999999994 Td (| ProjectInfo.jsx e este documento.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 415.8899999999994 Td (Competências associadas do enunciado) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 401.8899999999994 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 401.8899999999994 Td (Fundamentar, medir e organizar estruturas e processos de engenharia de software.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 384.48999999999944 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 384.48999999999944 Td (Elicitar, analisar, especificar e validar requisitos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 367.08999999999946 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 367.08999999999946 Td (Selecionar tecnologias adequadas para construção de software.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 349.6899999999995 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 349.6899999999995 Td (Testar software, avaliar qualidade e gerenciar configuração.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 332.2899999999995 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 332.2899999999995 Td (Gerenciar processos e qualidade de software em nível introdutório.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 314.88999999999953 Td (Velaris PetCare Integração) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 15) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Relação entre matérias e evidências do projeto) Tj ET
-endstream
-endobj
-35 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 34 0 R >>
-endobj
-36 0 obj
-<< /Length 3451 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (15. Roteiro para apresentação oral) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Sugestão de fala para banca) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 752.1899999999999 Td (1. Abertura) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 738.1899999999999 Td (Apresentar o nome Velaris PetCare, o slogan e o tema do PI. Explicar que o recorte) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 720.4899999999999 Td (escolhido foi serviços pet comunitários por ser um problema real de divulgação local.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 702.7899999999998 Td (2. Problema e público) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 688.7899999999998 Td (Mostrar que tutores enfrentam informações dispersas e pequenos prestadores têm baixa) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 671.0899999999998 Td (visibilidade. Citar tutores, pet shops, clínicas, prestadores móveis e comunidade.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 653.3899999999998 Td (3. Demonstração do sistema) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 639.3899999999998 Td (Abrir Home, buscar serviço, filtrar por categoria, entrar em detalhes, simular) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 621.6899999999997 Td (agendamento, enviar sugestão fake e mostrar o DashboardAdmin.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 603.9899999999997 Td (4. Integração das matérias) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 589.9899999999997 Td (Relacionar busca e filtros a Algoritmos; requisitos e casos de uso a Engenharia;) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 572.2899999999996 Td (contagens e indicadores a Matemática; riscos, viabilidade e Canvas a Governança e) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 554.5899999999996 Td (Empreendedorismo.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 536.8899999999995 Td (Perguntas prováveis e respostas rápidas) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 522.8899999999995 Td (|) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 505.18999999999954 Td (| Pergunta) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 487.48999999999955 Td (| Resposta sugerida) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 469.78999999999957 Td (| Por que escolher serviços pet?) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 452.0899999999996 Td (| É um recorte comunitário claro, com pequenos negócios e necessidade real de confiança.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 434.3899999999996 Td (| Tem backend?) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 416.6899999999996 Td (| Não. O escopo é MVP front-end com dados mockados, pronto para evoluir.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 398.9899999999996 Td (| Como os dados seriam validados?) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 381.2899999999996 Td (| Por revisão administrativa, confirmação de contato e atualização periódica.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 363.58999999999963 Td (| Onde entra matemática?) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 345.88999999999965 Td (| Contagens, indicadores, médias, percentuais, filtros por conjuntos e gráficos simples.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 328.18999999999966 Td (Velaris PetCare Roteiro de apresentação) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 16) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Sugestão de fala para banca) Tj ET
-endstream
-endobj
-37 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 36 0 R >>
-endobj
-38 0 obj
-<< /Length 3426 >>
-stream
-0.35 0.12 0.55 rg 0 803.89 595.28 38 re f
-BT /F2 10 Tf 1 1 1 rg 44 817.89 Td (Velaris PetCare - Documento de Apresentacao do PI 2026/1) Tj ET
-0.96 0.94 1 rg 0 0 595.28 24 re f
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 787.89 Td (16. Conclusão) Tj ET
-BT /F2 18 Tf 0.38 0.13 0.66 rg 44 770.1899999999999 Td (Resultado final e próximos passos) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 752.1899999999999 Td (O Velaris PetCare atende ao tema "Conecta Comunidade" ao propor uma solução simples,) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 734.4899999999999 Td (navegável e viável para divulgar serviços de interesse local. O projeto demonstra) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 716.7899999999998 Td (planejamento, requisitos, busca, filtragem, prototipação, indicadores, análise de risco e) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 699.0899999999998 Td (visão empreendedora, respeitando o escopo do primeiro período.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 681.3899999999998 Td (O que está pronto) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 667.3899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 667.3899999999998 Td (Home com apresentação do projeto.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 649.9899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 649.9899999999998 Td (Listagem por categoria e busca funcional.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 632.5899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 632.5899999999998 Td (Detalhes de serviços com cuidados especiais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 615.1899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 615.1899999999998 Td (Agendamento e sugestão com sucesso fake.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 597.7899999999998 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 597.7899999999998 Td (DashboardAdmin conceitual.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 580.3899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 580.3899999999999 Td (Página de PI com matemática, engenharia e governança.) Tj ET
-BT /F2 13 Tf 0.38 0.13 0.66 rg 44 562.9899999999999 Td (Próximos passos) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 548.9899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 548.9899999999999 Td (Coletar feedback de tutores e prestadores reais.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 531.5899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 531.5899999999999 Td (Priorizar backend e banco de dados.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 514.1899999999999 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 514.1899999999999 Td (Validar dados dos estabelecimentos.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 496.78999999999996 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 496.78999999999996 Td (Adicionar autenticação e permissões.) Tj ET
-BT /F2 10.8 Tf 0.42 0.14 0.7 rg 52 479.39 Td (-) Tj ET
-BT /F1 10.4 Tf 0.2 0.24 0.33 rg 66 479.39 Td (Medir buscas e agendamentos reais.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 461.99 Td (Mensagem central para a apresentação: o projeto é tecnicamente simples, mas socialmente útil,) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 444.29 Td (viável para MVP e preparado para evoluir com dados reais da comunidade.) Tj ET
-BT /F1 10.7 Tf 0.2 0.24 0.33 rg 44 426.59000000000003 Td (Velaris PetCare Conclusão) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 503.28 24 Td (Pagina 17) Tj ET
-BT /F1 9 Tf 0.45 0.45 0.55 rg 44 24 Td (Resultado final e próximos passos) Tj ET
-endstream
-endobj
-39 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 38 0 R >>
-endobj
 xref
-0 40
+0 26
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000233 00000 n 
-0000000330 00000 n 
-0000000432 00000 n 
-0000000527 00000 n 
-0000002505 00000 n 
-0000002657 00000 n 
-0000005689 00000 n 
-0000005841 00000 n 
-0000010325 00000 n 
-0000010479 00000 n 
-0000014245 00000 n 
-0000014399 00000 n 
-0000018566 00000 n 
-0000018720 00000 n 
-0000023418 00000 n 
-0000023572 00000 n 
-0000028760 00000 n 
-0000028914 00000 n 
-0000033703 00000 n 
-0000033857 00000 n 
-0000038508 00000 n 
-0000038662 00000 n 
-0000042194 00000 n 
-0000042348 00000 n 
-0000046442 00000 n 
-0000046596 00000 n 
-0000049554 00000 n 
-0000049708 00000 n 
-0000053549 00000 n 
-0000053703 00000 n 
-0000056844 00000 n 
-0000056998 00000 n 
-0000060799 00000 n 
-0000060953 00000 n 
-0000064457 00000 n 
-0000064611 00000 n 
-0000068090 00000 n 
+0000000184 00000 n 
+0000000281 00000 n 
+0000000383 00000 n 
+0000000478 00000 n 
+0000002393 00000 n 
+0000002545 00000 n 
+0000004958 00000 n 
+0000005110 00000 n 
+0000007548 00000 n 
+0000007702 00000 n 
+0000010340 00000 n 
+0000010494 00000 n 
+0000013506 00000 n 
+0000013660 00000 n 
+0000015977 00000 n 
+0000016131 00000 n 
+0000018858 00000 n 
+0000019012 00000 n 
+0000021291 00000 n 
+0000021445 00000 n 
+0000023512 00000 n 
+0000023666 00000 n 
+0000025535 00000 n 
 trailer
-<< /Size 40 /Root 1 0 R >>
+<< /Size 26 /Root 1 0 R >>
 startxref
-68244
+25689
 %%EOF
