@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom'
 import { PATHS } from '../routes/paths'
 
-/**
- * Rodapé institucional com CTA suave para descoberta de pet shops.
- */
 export function Footer() {
   return (
     <footer className="border-t border-velaris-100 bg-white">
@@ -14,28 +11,31 @@ export function Footer() {
             <p className="mt-2 max-w-sm text-sm text-slate-600">
               Conectando cuidado e confiança para seu pet.
             </p>
+            <p className="mt-3 text-xs text-slate-500">
+              MVP front-end para o Projeto Integrador 2026/1.
+            </p>
           </div>
           <div>
             <p className="text-sm font-semibold text-velaris-900">Explorar</p>
             <ul className="mt-3 space-y-2 text-sm text-slate-600">
               <li>
-                <Link to={PATHS.petShops} className="hover:text-velaris-700">
-                  Lista de Pet Shops
+                <Link to={PATHS.services} className="hover:text-velaris-700">
+                  Serviços pet
                 </Link>
               </li>
               <li>
-                <Link to={PATHS.agendamento} className="hover:text-velaris-700">
-                  Agendar serviço
+                <Link to={PATHS.suggestService} className="hover:text-velaris-700">
+                  Sugerir serviço
                 </Link>
               </li>
               <li>
-                <Link to={PATHS.perfilUsuario} className="hover:text-velaris-700">
-                  Meu perfil
+                <Link to={PATHS.projectInfo} className="hover:text-velaris-700">
+                  Projeto Integrador
                 </Link>
               </li>
               <li>
                 <Link to={PATHS.adminDashboard} className="hover:text-velaris-700">
-                  Painel do pet shop
+                  DashboardAdmin
                 </Link>
               </li>
             </ul>
@@ -43,7 +43,7 @@ export function Footer() {
           <div>
             <p className="text-sm font-semibold text-velaris-900">Contato (demo)</p>
             <p className="mt-3 text-sm text-slate-600">contato@velarispetcare.com.br</p>
-            <p className="text-sm text-slate-600">São Paulo — SP</p>
+            <p className="text-sm text-slate-600">Goiânia - GO</p>
           </div>
         </div>
         <p className="mt-10 border-t border-velaris-100 pt-6 text-center text-xs text-slate-500">

@@ -6,22 +6,19 @@ const navClass = ({ isActive }) =>
   [
     'rounded-lg px-3 py-2 text-sm font-medium transition-colors',
     isActive
-      ? 'bg-white/15 text-white'
-      : 'text-velaris-100 hover:bg-white/10 hover:text-white',
+      ? 'bg-velaris-100 text-velaris-900'
+      : 'text-slate-600 hover:bg-velaris-50 hover:text-velaris-900',
   ].join(' ')
 
-/**
- * Barra de navegação principal — responsiva com menu mobile.
- */
 export function Navbar() {
   const [open, setOpen] = useState(false)
 
   const links = [
     { to: PATHS.home, label: 'Início' },
-    { to: PATHS.petShops, label: 'Pet Shops' },
-    { to: `${PATHS.home}#servicos`, label: 'Serviços' },
-    { to: `${PATHS.home}#sobre`, label: 'Sobre' },
-    { to: `${PATHS.home}#contato`, label: 'Contato' },
+    { to: PATHS.services, label: 'Serviços' },
+    { to: PATHS.suggestService, label: 'Sugerir serviço' },
+    { to: PATHS.projectInfo, label: 'Projeto Integrador' },
+    { to: PATHS.adminDashboard, label: 'Admin' },
   ]
 
   return (
@@ -43,7 +40,7 @@ export function Navbar() {
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Principal">
           {links.map(({ to, label }) => (
-            <NavLink key={to} to={to} className={navClass}>
+            <NavLink key={to} to={to} end={to === PATHS.home} className={navClass}>
               {label}
             </NavLink>
           ))}
@@ -69,10 +66,10 @@ export function Navbar() {
           className="inline-flex rounded-lg border border-velaris-200 p-2 text-velaris-800 md:hidden"
           aria-expanded={open}
           aria-controls="mobile-menu"
-          onClick={() => setOpen((v) => !v)}
+          onClick={() => setOpen((value) => !value)}
         >
           <span className="sr-only">Abrir menu</span>
-          {open ? '✕' : '☰'}
+          {open ? '×' : '☰'}
         </button>
       </div>
 
@@ -83,7 +80,13 @@ export function Navbar() {
         >
           <nav className="flex flex-col gap-1" aria-label="Mobile">
             {links.map(({ to, label }) => (
-              <NavLink key={to} to={to} className={navClass} onClick={() => setOpen(false)}>
+              <NavLink
+                key={to}
+                to={to}
+                end={to === PATHS.home}
+                className={navClass}
+                onClick={() => setOpen(false)}
+              >
                 {label}
               </NavLink>
             ))}

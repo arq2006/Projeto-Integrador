@@ -1,5 +1,5 @@
 /**
- * Exibe até 5 estrelas com preenchimento proporcional à nota (0–5).
+ * Exibe ate 5 estrelas com preenchimento proporcional a nota (0-5).
  */
 export function RatingStars({ value, count, size = 'md', showValue = true }) {
   const starSize = size === 'sm' ? 'text-sm' : 'text-base'

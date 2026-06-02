@@ -15,15 +15,12 @@ const items = [
   { to: PATHS.adminDashboard, label: 'Dashboard', icon: '📊' },
   { to: PATHS.adminAgendamentos, label: 'Agendamentos', icon: '📅' },
   { to: PATHS.adminServicos, label: 'Serviços', icon: '🧴' },
-  { to: PATHS.adminPets, label: 'Pets', icon: '🐕' },
-  { to: PATHS.adminAvaliacoes, label: 'Avaliações', icon: '⭐' },
+  { to: PATHS.adminPets, label: 'Pets', icon: '🐾' },
+  { to: PATHS.adminAvaliacoes, label: 'Avaliações', icon: '★' },
   { to: PATHS.adminGaleria, label: 'Galeria', icon: '🖼️' },
   { to: PATHS.adminConfig, label: 'Configurações', icon: '⚙️' },
 ]
 
-/**
- * Navegação lateral reutilizável (desktop + drawer mobile).
- */
 export function AdminSidebarNav({ onNavigate }) {
   return (
     <>
@@ -34,7 +31,7 @@ export function AdminSidebarNav({ onNavigate }) {
           </span>
           <div>
             <p className="text-sm font-semibold">Velaris PetCare</p>
-            <p className="text-xs text-velaris-200">Painel do pet shop</p>
+            <p className="text-xs text-velaris-200">Painel administrativo</p>
           </div>
         </div>
       </div>
@@ -58,17 +55,14 @@ export function AdminSidebarNav({ onNavigate }) {
           className={`${linkBase} text-velaris-100 hover:bg-white/10 hover:text-white`}
           onClick={onNavigate}
         >
-          <span aria-hidden>🚪</span>
-          Sair (demo)
+          <span aria-hidden>↩</span>
+          Voltar ao site
         </NavLink>
       </div>
     </>
   )
 }
 
-/**
- * Sidebar fixa em telas grandes — em mobile o layout admin usa drawer com o mesmo conteúdo.
- */
 export function SidebarAdmin() {
   return (
     <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col bg-velaris-900 text-white shadow-xl lg:flex lg:flex-col">

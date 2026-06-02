@@ -1,5 +1,5 @@
 /**
- * Barra de busca dupla: termo + localização (estado controlado pelo pai).
+ * Barra de busca controlada pelo componente pai.
  */
 export function SearchBar({
   query,
@@ -30,7 +30,7 @@ export function SearchBar({
           type="search"
           value={query}
           onChange={(e) => onQueryChange(e.target.value)}
-          placeholder="Nome do pet shop ou serviço"
+          placeholder="Nome, serviço, categoria ou palavra-chave"
           className="min-w-0 flex-1 bg-transparent text-sm text-velaris-950 outline-none placeholder:text-slate-400"
         />
       </label>

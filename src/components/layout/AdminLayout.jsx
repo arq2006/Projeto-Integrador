@@ -1,12 +1,8 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import { PATHS } from '../../routes/paths'
-import { SidebarAdmin, AdminSidebarNav } from '../SidebarAdmin'
+import { AdminSidebarNav, SidebarAdmin } from '../SidebarAdmin'
 
-/**
- * Layout do painel do pet shop — sidebar desktop + drawer em telas pequenas.
- */
 export function AdminLayout() {
   const [open, setOpen] = useState(false)
 
@@ -40,8 +36,12 @@ export function AdminLayout() {
             <aside className="absolute right-0 top-0 flex h-full w-72 flex-col bg-velaris-900 text-white shadow-2xl">
               <div className="flex items-center justify-between border-b border-white/10 px-4 py-3">
                 <span className="font-semibold">Painel</span>
-                <button type="button" className="text-xl leading-none" onClick={() => setOpen(false)}>
-                  ✕
+                <button
+                  type="button"
+                  className="text-xl leading-none"
+                  onClick={() => setOpen(false)}
+                >
+                  ×
                 </button>
               </div>
               <AdminSidebarNav onNavigate={() => setOpen(false)} />

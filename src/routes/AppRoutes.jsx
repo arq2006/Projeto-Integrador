@@ -1,28 +1,26 @@
-import { Routes, Route, Navigate, useSearchParams } from 'react-router-dom'
-import { MainLayout } from '../components/layout/MainLayout'
+import { Navigate, Route, Routes, useSearchParams } from 'react-router-dom'
 import { AdminLayout } from '../components/layout/AdminLayout'
+import { MainLayout } from '../components/layout/MainLayout'
 import { PATHS } from './paths'
 
+import { AdminPlaceholder } from '../pages/AdminPlaceholder'
+import { Appointment } from '../pages/Appointment'
+import { Cadastro } from '../pages/Cadastro'
+import { DashboardAdmin } from '../pages/DashboardAdmin'
 import { Home } from '../pages/Home'
 import { Login } from '../pages/Login'
-import { Cadastro } from '../pages/Cadastro'
-import { Petshops } from '../pages/Petshops'
-import { PerfilPetshop } from '../pages/PerfilPetshop'
-import { Agendamento } from '../pages/Agendamento'
 import { PerfilUsuario } from '../pages/PerfilUsuario'
-import { DashboardAdmin } from '../pages/DashboardAdmin'
-import { AdminPlaceholder } from '../pages/AdminPlaceholder'
+import { ProjectInfo } from '../pages/ProjectInfo'
+import { ServiceDetails } from '../pages/ServiceDetails'
+import { Services } from '../pages/Services'
+import { SuggestService } from '../pages/SuggestService'
 
-/** Remonta o fluxo de agendamento quando ?petshopId= mudar, mantendo estado coerente com a URL */
-function AgendamentoRoute() {
+function AppointmentRoute() {
   const [params] = useSearchParams()
   const remountKey = params.get('petshopId') ?? '_default'
-  return <Agendamento key={remountKey} />
+  return <Appointment key={remountKey} />
 }
 
-/**
- * Mapa central de rotas públicas e área administrativa (mock).
- */
 export function AppRoutes() {
   return (
     <Routes>
@@ -30,10 +28,17 @@ export function AppRoutes() {
         <Route path={PATHS.home} element={<Home />} />
         <Route path={PATHS.login} element={<Login />} />
         <Route path={PATHS.cadastro} element={<Cadastro />} />
-        <Route path={PATHS.petShops} element={<Petshops />} />
-        <Route path="/pet-shops/:id" element={<PerfilPetshop />} />
-        <Route path={PATHS.agendamento} element={<AgendamentoRoute />} />
+        <Route path={PATHS.services} element={<Services />} />
+        <Route path={PATHS.serviceDetails()} element={<ServiceDetails />} />
+        <Route path={PATHS.suggestService} element={<SuggestService />} />
+        <Route path={PATHS.projectInfo} element={<ProjectInfo />} />
+        <Route path={PATHS.appointment()} element={<Appointment />} />
+        <Route path={PATHS.agendamento} element={<AppointmentRoute />} />
         <Route path={PATHS.perfilUsuario} element={<PerfilUsuario />} />
+
+        <Route path="/pet-shops" element={<Services />} />
+        <Route path="/pet-shops/:id" element={<ServiceDetails />} />
+        <Route path="/agendar" element={<AppointmentRoute />} />
       </Route>
 
       <Route path="/admin" element={<AdminLayout />}>
@@ -43,10 +48,7 @@ export function AppRoutes() {
         <Route path="pets" element={<AdminPlaceholder title="Pets atendidos" />} />
         <Route path="avaliacoes" element={<AdminPlaceholder title="Avaliações" />} />
         <Route path="galeria" element={<AdminPlaceholder title="Galeria" />} />
-        <Route
-          path="configuracoes"
-          element={<AdminPlaceholder title="Configurações" />}
-        />
+        <Route path="configuracoes" element={<AdminPlaceholder title="Configurações" />} />
       </Route>
 
       <Route path="*" element={<Navigate to={PATHS.home} replace />} />

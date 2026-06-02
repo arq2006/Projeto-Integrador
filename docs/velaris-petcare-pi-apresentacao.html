@@ -1,0 +1,1228 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Velaris PetCare - Documento de Apresentação do Projeto Integrador</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 14mm;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #f7f2ff;
+        color: #1e1b4b;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12.2px;
+        line-height: 1.45;
+      }
+
+      .page {
+        min-height: 267mm;
+        break-after: page;
+        padding: 7mm;
+        background: linear-gradient(145deg, #ffffff 0%, #fbf7ff 55%, #eff8ff 100%);
+        border: 1px solid #eadcff;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .page:last-child {
+        break-after: auto;
+      }
+
+      .cover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        text-align: left;
+      }
+
+      .badge {
+        display: inline-flex;
+        width: max-content;
+        border-radius: 999px;
+        padding: 6px 12px;
+        background: #ede9fe;
+        color: #6d28d9;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        font-size: 10px;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 10px;
+        color: #3b0764;
+        font-size: 38px;
+        line-height: 1.02;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin-bottom: 12px;
+        color: #581c87;
+        font-size: 24px;
+        line-height: 1.15;
+      }
+
+      h3 {
+        margin-bottom: 7px;
+        color: #6b21a8;
+        font-size: 15px;
+      }
+
+      .lead {
+        max-width: 650px;
+        color: #475569;
+        font-size: 16px;
+      }
+
+      .muted {
+        color: #64748b;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+
+      .grid-4 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+
+      .card {
+        border: 1px solid #eadcff;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.86);
+        padding: 12px;
+        box-shadow: 0 10px 28px rgba(88, 28, 135, 0.08);
+      }
+
+      .stat {
+        min-height: 78px;
+      }
+
+      .stat strong {
+        display: block;
+        color: #3b0764;
+        font-size: 25px;
+        line-height: 1;
+      }
+
+      .stat span {
+        display: block;
+        margin-top: 8px;
+        color: #64748b;
+        font-size: 11px;
+      }
+
+      ul,
+      ol {
+        margin: 6px 0 0;
+        padding-left: 18px;
+      }
+
+      li {
+        margin: 3px 0;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border-radius: 10px;
+        font-size: 11.2px;
+      }
+
+      th,
+      td {
+        border: 1px solid #e9d5ff;
+        padding: 7px;
+        vertical-align: top;
+      }
+
+      th {
+        background: #ede9fe;
+        color: #4c1d95;
+        text-align: left;
+      }
+
+      .tag-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 7px;
+        margin-top: 8px;
+      }
+
+      .tag {
+        border-radius: 999px;
+        background: #f3e8ff;
+        color: #6b21a8;
+        padding: 5px 9px;
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .route {
+        display: inline-block;
+        border-radius: 7px;
+        background: #eff6ff;
+        color: #075985;
+        padding: 2px 6px;
+        font-family: Consolas, Monaco, monospace;
+        font-size: 10.7px;
+      }
+
+      .bar {
+        height: 10px;
+        border-radius: 999px;
+        background: #ede9fe;
+        overflow: hidden;
+      }
+
+      .bar > span {
+        display: block;
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #7c3aed, #38bdf8);
+      }
+
+      .flow {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 8px;
+        margin-top: 10px;
+      }
+
+      .flow .step {
+        border: 1px solid #d8b4fe;
+        border-radius: 10px;
+        padding: 9px;
+        background: #fff;
+        text-align: center;
+        font-weight: 700;
+        color: #581c87;
+      }
+
+      .quote {
+        border-left: 4px solid #7c3aed;
+        padding: 10px 12px;
+        background: #f8fafc;
+        color: #475569;
+        border-radius: 0 10px 10px 0;
+      }
+
+      .footer-note {
+        position: absolute;
+        right: 9mm;
+        bottom: 7mm;
+        left: 9mm;
+        display: flex;
+        justify-content: space-between;
+        color: #94a3b8;
+        font-size: 10px;
+      }
+
+      .mb-0 {
+        margin-bottom: 0;
+      }
+
+      .mt-12 {
+        margin-top: 12px;
+      }
+
+      .mt-18 {
+        margin-top: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page cover">
+      <span class="badge">Projeto Integrador 2026/1 - ADS 1º período</span>
+      <div>
+        <h1>Velaris PetCare</h1>
+        <p class="lead">
+          Documento explicativo para apresentação do PI: MVP de site/app demonstrativo para
+          divulgação e agendamento de serviços pet comunitários.
+        </p>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Slogan</h3>
+          <p class="mb-0">Conectando cuidado e confiança para seu pet.</p>
+        </div>
+        <div class="card">
+          <h3>Tema do PI</h3>
+          <p class="mb-0">
+            Conecta Comunidade: site ou aplicativo para divulgação de serviços e produtos
+            comunitários.
+          </p>
+        </div>
+      </div>
+      <div class="tag-list">
+        <span class="tag">React + Vite</span>
+        <span class="tag">React Router DOM</span>
+        <span class="tag">Dados mockados</span>
+        <span class="tag">Responsivo</span>
+        <span class="tag">Serviços comunitários</span>
+        <span class="tag">Risk IT</span>
+      </div>
+      <div class="footer-note">
+        <span>Base: PI20261-ADS1.pdf e implementação Velaris PetCare</span>
+        <span>Junho/2026</span>
+      </div>
+    </section>
+
+    <section class="page">
+      <span class="badge">1. Visão geral</span>
+      <h2>Resumo executivo do projeto</h2>
+      <div class="quote">
+        O Velaris PetCare resolve, em escala de MVP, a dificuldade de tutores encontrarem serviços
+        pet confiáveis por bairro, categoria, horário, contato e cuidados especiais.
+      </div>
+      <div class="grid-2 mt-18">
+        <div class="card">
+          <h3>Problema comunitário</h3>
+          <p>
+            Pequenos prestadores, clínicas, pet shops e serviços móveis divulgam informações de
+            forma dispersa em redes sociais, grupos de mensagem e indicações informais. Isso reduz
+            a confiança, dificulta comparação e prejudica o acesso rápido a serviços locais.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Solução proposta</h3>
+          <p>
+            Um site/app demonstrativo que centraliza serviços pet locais, organiza categorias,
+            permite busca simples, apresenta detalhes do estabelecimento, simula agendamento e
+            recebe sugestões de novos serviços da comunidade.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Público-alvo</h3>
+          <ul>
+            <li>Tutores de cães e gatos.</li>
+            <li>Pet shops, clínicas e prestadores locais.</li>
+            <li>Moradores que indicam serviços de bairro.</li>
+            <li>Administradores responsáveis por revisar dados.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Recorte escolhido</h3>
+          <p>
+            Serviços pet comunitários em bairros de Goiânia, com foco em banho e tosa, clínica
+            veterinária, hotel pet, taxi dog, vacinação e produtos pet.
+          </p>
+        </div>
+      </div>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Visão geral</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">2. Objetivos e aderência ao enunciado</span>
+      <h2>Objetivos do MVP</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Objetivo geral</h3>
+          <p>
+            Desenvolver um MVP funcional para centralizar serviços pet comunitários e facilitar o
+            acesso dos tutores a informações confiáveis de contato, endereço, horário, categoria,
+            avaliação e agendamento simulado.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Objetivos específicos</h3>
+          <ul>
+            <li>Organizar serviços por categoria.</li>
+            <li>Permitir consulta rápida por bairro, categoria e palavra-chave.</li>
+            <li>Apresentar descrição, contato, horário e cuidados especiais.</li>
+            <li>Disponibilizar formulário de sugestão comunitária.</li>
+            <li>Construir painel administrativo conceitual.</li>
+            <li>Documentar requisitos, riscos, viabilidade e impacto.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Funções mínimas exigidas e evidência no app</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Requisito do PI</th>
+            <th>Implementação no Velaris PetCare</th>
+            <th>Arquivos/rotas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Página inicial com apresentação</td>
+            <td>Home com slogan, problema comunitário, objetivo e CTA de busca.</td>
+            <td><span class="route">/</span> - Home.jsx</td>
+          </tr>
+          <tr>
+            <td>Listagem por categoria</td>
+            <td>Cards de serviços com nome, categoria, bairro, avaliação, horário e detalhes.</td>
+            <td><span class="route">/servicos</span> - Services.jsx</td>
+          </tr>
+          <tr>
+            <td>Busca simples</td>
+            <td>Busca por nome, bairro, categoria e palavra-chave usando mocks.</td>
+            <td>SearchBar, CategoryFilter</td>
+          </tr>
+          <tr>
+            <td>Página de detalhes</td>
+            <td>Descrição, endereço, contato, serviços, avaliações e cuidados especiais.</td>
+            <td><span class="route">/servicos/:id</span></td>
+          </tr>
+          <tr>
+            <td>Formulário de sugestão</td>
+            <td>Campos completos e mensagem de sucesso fake.</td>
+            <td><span class="route">/sugerir-servico</span></td>
+          </tr>
+          <tr>
+            <td>Admin conceitual</td>
+            <td>Indicadores, sugestões, agendamentos e ações visuais de editar/remover.</td>
+            <td><span class="route">/admin</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Aderência ao PI</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">3. Escopo funcional implementado</span>
+      <h2>Mapa de navegação e funcionalidades</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Rotas públicas</h3>
+          <ul>
+            <li><span class="route">/</span> página inicial e apresentação.</li>
+            <li><span class="route">/servicos</span> listagem, busca e filtros.</li>
+            <li><span class="route">/servicos/:id</span> detalhes do serviço.</li>
+            <li><span class="route">/agendamento/:id</span> agendamento simulado.</li>
+            <li><span class="route">/sugerir-servico</span> sugestão comunitária.</li>
+            <li><span class="route">/projeto-integrador</span> documentação dentro do app.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Rotas complementares</h3>
+          <ul>
+            <li><span class="route">/login</span> autenticação demonstrativa.</li>
+            <li><span class="route">/cadastro</span> cadastro demonstrativo.</li>
+            <li><span class="route">/perfil</span> perfil do tutor e pets.</li>
+            <li><span class="route">/admin</span> dashboard administrativo.</li>
+            <li><span class="route">/pet-shops</span> alias legado preservado.</li>
+            <li><span class="route">/agendar</span> alias legado preservado.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Fluxo principal do usuário</h3>
+      <div class="flow">
+        <div class="step">Home</div>
+        <div class="step">Busca/filtro</div>
+        <div class="step">Detalhes</div>
+        <div class="step">Agendamento</div>
+        <div class="step">Confirmação fake</div>
+      </div>
+      <div class="grid-3 mt-18">
+        <div class="card">
+          <h3>Busca</h3>
+          <p>Filtra por texto livre, bairro, categoria e nota mínima.</p>
+        </div>
+        <div class="card">
+          <h3>Detalhes</h3>
+          <p>Mostra serviços oferecidos, avaliações e informações de cuidado.</p>
+        </div>
+        <div class="card">
+          <h3>Sugestão</h3>
+          <p>Coleta dados de novos estabelecimentos para revisão administrativa.</p>
+        </div>
+      </div>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Escopo funcional</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">4. Arquitetura front-end</span>
+      <h2>Organização técnica do projeto</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Tecnologias</h3>
+          <ul>
+            <li>React para componentização da interface.</li>
+            <li>Vite para ambiente de desenvolvimento e build.</li>
+            <li>React Router DOM para navegação.</li>
+            <li>CSS/Tailwind organizado para layout responsivo.</li>
+            <li>Dados mockados sem backend.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Decisões de arquitetura</h3>
+          <ul>
+            <li>Dados centralizados em <span class="route">src/data</span>.</li>
+            <li>Rotas centralizadas em <span class="route">src/routes</span>.</li>
+            <li>Componentes reutilizáveis em <span class="route">src/components</span>.</li>
+            <li>Páginas separadas por responsabilidade em <span class="route">src/pages</span>.</li>
+            <li>Aliases preservam compatibilidade com nomes antigos.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Estrutura de pastas atendida</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Pasta</th>
+            <th>Conteúdo</th>
+            <th>Exemplos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="route">components</span></td>
+            <td>Elementos reutilizáveis.</td>
+            <td>Navbar, Footer, ServiceCard, SearchBar, CategoryFilter, StatsCard.</td>
+          </tr>
+          <tr>
+            <td><span class="route">pages</span></td>
+            <td>Telas navegáveis.</td>
+            <td>Home, Services, ServiceDetails, SuggestService, DashboardAdmin, ProjectInfo.</td>
+          </tr>
+          <tr>
+            <td><span class="route">data</span></td>
+            <td>Massa de dados mockada.</td>
+            <td>services, categories, stats, risks, appointments, reviews.</td>
+          </tr>
+          <tr>
+            <td><span class="route">routes</span></td>
+            <td>Mapa de rotas.</td>
+            <td>AppRoutes.jsx e paths.js.</td>
+          </tr>
+          <tr>
+            <td><span class="route">styles</span></td>
+            <td>Estilos globais e marca.</td>
+            <td>global.css e brand.css.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Arquitetura</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">5. Algoritmos e Programação</span>
+      <h2>Modelagem lógica da solução</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Conceitos aplicados</h3>
+          <ul>
+            <li>Vetores/listas para armazenar serviços, categorias, avaliações e sugestões.</li>
+            <li>Estruturas condicionais para aplicar filtros somente quando preenchidos.</li>
+            <li>Estruturas de repetição por <span class="route">map</span> para renderizar cards.</li>
+            <li>Uso de <span class="route">filter</span>, <span class="route">sort</span> e <span class="route">Set</span>.</li>
+            <li>Estados React para controlar busca, formulário e sucesso fake.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Dados usados na lógica</h3>
+          <ul>
+            <li>Serviços pet com nome, categoria, bairro, contato e horário.</li>
+            <li>Categorias padronizadas com IDs estáveis.</li>
+            <li>Agendamentos simulados para usuário e administrador.</li>
+            <li>Riscos e estatísticas usados em páginas institucionais.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Pseudocódigo da busca</h3>
+      <div class="card">
+        <pre>
+lista = todosOsServicos
+se termoDeBusca existe:
+  manter itens cujo nome, categoria, bairro, serviços ou palavras-chave contenham o termo
+se bairro existe:
+  manter itens do bairro selecionado
+se categoria existe:
+  manter itens cujo serviceIds contenha a categoria
+se avaliação mínima existe:
+  manter itens com nota maior ou igual ao mínimo
+ordenar por nota, nome ou bairro
+exibir cards filtrados
+        </pre>
+      </div>
+      <h3 class="mt-18">Evidências no código</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Arquivo</th>
+            <th>O que demonstra</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Services.jsx</td>
+            <td>Busca, filtros, ordenação, URLSearchParams e renderização condicional.</td>
+          </tr>
+          <tr>
+            <td>SuggestService.jsx</td>
+            <td>Estado de formulário, validação HTML e mensagem de sucesso simulada.</td>
+          </tr>
+          <tr>
+            <td>Agendamento.jsx</td>
+            <td>Seleção de estabelecimento, serviço, data, horário e pet.</td>
+          </tr>
+          <tr>
+            <td>stats.js</td>
+            <td>Contagem por categoria, total de serviços e uso de Set para bairros únicos.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Algoritmos</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">6. Engenharia de Software</span>
+      <h2>Requisitos e organização do projeto</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Requisitos funcionais</h3>
+          <ul>
+            <li>RF01 - Exibir página inicial com problema, objetivo e chamada para busca.</li>
+            <li>RF02 - Listar serviços por categoria.</li>
+            <li>RF03 - Buscar por nome, bairro, categoria e palavra-chave.</li>
+            <li>RF04 - Exibir página de detalhes do serviço.</li>
+            <li>RF05 - Permitir agendamento simulado.</li>
+            <li>RF06 - Permitir sugestão de novo serviço.</li>
+            <li>RF07 - Exibir dashboard administrativo conceitual.</li>
+            <li>RF08 - Exibir conteúdo de PI, estatísticas e governança.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Requisitos não funcionais</h3>
+          <ul>
+            <li>RNF01 - Interface responsiva para mobile e desktop.</li>
+            <li>RNF02 - Navegação simples e consistente.</li>
+            <li>RNF03 - Código componentizado e organizado.</li>
+            <li>RNF04 - Uso de dados mockados, sem backend.</li>
+            <li>RNF05 - Visual moderno, premium e acolhedor.</li>
+            <li>RNF06 - Build e lint sem erros.</li>
+            <li>RNF07 - Rotas compatíveis com o escopo do PI.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Casos de uso resumidos</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Caso de uso</th>
+            <th>Ator</th>
+            <th>Fluxo principal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Buscar serviço pet</td>
+            <td>Tutor</td>
+            <td>Acessa listagem, digita termo, escolhe filtros e compara cards.</td>
+          </tr>
+          <tr>
+            <td>Consultar detalhes</td>
+            <td>Tutor</td>
+            <td>Abre um serviço, consulta endereço, contato, horário e cuidados.</td>
+          </tr>
+          <tr>
+            <td>Agendar serviço</td>
+            <td>Tutor</td>
+            <td>Seleciona serviço, data, horário, pet e confirma fluxo fake.</td>
+          </tr>
+          <tr>
+            <td>Sugerir estabelecimento</td>
+            <td>Morador</td>
+            <td>Preenche formulário com dados de um serviço local.</td>
+          </tr>
+          <tr>
+            <td>Revisar painel</td>
+            <td>Administrador</td>
+            <td>Consulta totais, sugestões e agendamentos simulados.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Engenharia de Software</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">7. Engenharia de Software</span>
+      <h2>Planejamento, qualidade e validação</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Metodologia sugerida aplicada</h3>
+          <ol>
+            <li>Escolha do problema comunitário.</li>
+            <li>Definição do recorte: serviços pet locais.</li>
+            <li>Levantamento de requisitos do enunciado.</li>
+            <li>Modelagem dos dados mockados.</li>
+            <li>Construção das telas e rotas.</li>
+            <li>Validação com build, lint e navegador.</li>
+            <li>Documentação para apresentação.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Critérios de qualidade</h3>
+          <ul>
+            <li>Aderência ao tema comunitário.</li>
+            <li>Clareza de navegação e conteúdo.</li>
+            <li>Responsividade sem overflow horizontal.</li>
+            <li>Componentes reutilizáveis e dados separados da UI.</li>
+            <li>Rotas principais testadas manualmente.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Validações realizadas</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Validação</th>
+            <th>Resultado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="route">npm run build</span></td>
+            <td>Build de produção gerado com sucesso.</td>
+          </tr>
+          <tr>
+            <td><span class="route">npm run lint</span></td>
+            <td>ESLint executado sem erros.</td>
+          </tr>
+          <tr>
+            <td>Navegação pública</td>
+            <td>Home, serviços, detalhes, agendamento, sugestão, PI e admin conferidos.</td>
+          </tr>
+          <tr>
+            <td>Responsividade</td>
+            <td>Home, serviços e PI checados em largura mobile de 390px sem overflow.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="mt-18">Melhorias futuras</h3>
+      <ul>
+        <li>Backend com API REST e banco de dados.</li>
+        <li>Autenticação real para tutor e administrador.</li>
+        <li>CRUD real de serviços, sugestões e agendamentos.</li>
+        <li>Validação administrativa com histórico de alterações.</li>
+        <li>Mapa de localização e integração com WhatsApp.</li>
+      </ul>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Qualidade</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">8. Matemática Aplicada Computacional</span>
+      <h2>Leitura de dados, contagens e indicadores</h2>
+      <div class="grid-4">
+        <div class="card stat"><strong>6</strong><span>serviços cadastrados</span></div>
+        <div class="card stat"><strong>6</strong><span>categorias do escopo</span></div>
+        <div class="card stat"><strong>6</strong><span>agendamentos simulados</span></div>
+        <div class="card stat"><strong>3</strong><span>sugestões recebidas</span></div>
+      </div>
+      <h3 class="mt-18">Quantidade de serviços por categoria</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Categoria</th>
+            <th>Quantidade</th>
+            <th>Representação simples</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Banho e Tosa</td>
+            <td>1</td>
+            <td><div class="bar"><span style="width: 100%"></span></div></td>
+          </tr>
+          <tr>
+            <td>Clínica Veterinária</td>
+            <td>1</td>
+            <td><div class="bar"><span style="width: 100%"></span></div></td>
+          </tr>
+          <tr>
+            <td>Hotel Pet</td>
+            <td>1</td>
+            <td><div class="bar"><span style="width: 100%"></span></div></td>
+          </tr>
+          <tr>
+            <td>Taxi Dog</td>
+            <td>1</td>
+            <td><div class="bar"><span style="width: 100%"></span></div></td>
+          </tr>
+          <tr>
+            <td>Vacinação</td>
+            <td>1</td>
+            <td><div class="bar"><span style="width: 100%"></span></div></td>
+          </tr>
+          <tr>
+            <td>Produtos Pet</td>
+            <td>1</td>
+            <td><div class="bar"><span style="width: 100%"></span></div></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="grid-2 mt-18">
+        <div class="card">
+          <h3>Conjuntos numéricos e operações</h3>
+          <ul>
+            <li>Conjunto S: todos os serviços cadastrados.</li>
+            <li>Conjunto C: categorias disponíveis.</li>
+            <li>Conjunto B: bairros atendidos.</li>
+            <li>Interseção: serviços que atendem uma categoria e um bairro.</li>
+            <li>União: resultados por palavra-chave somados a resultados por bairro.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Indicadores possíveis</h3>
+          <ul>
+            <li>Quantidade de serviços por categoria.</li>
+            <li>Média de avaliação por categoria.</li>
+            <li>Volume de sugestões por bairro.</li>
+            <li>Taxa simulada de conversão: visitas em detalhes para agendamentos.</li>
+            <li>Ranking de buscas mais frequentes.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Matemática Aplicada</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">9. Matemática Aplicada Computacional</span>
+      <h2>Exemplos de cálculo para a apresentação</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Distribuição percentual</h3>
+          <p>
+            Como há 6 serviços e 6 categorias, cada categoria representa inicialmente:
+          </p>
+          <p><strong>1 / 6 x 100 = 16,67%</strong> do catálogo mockado.</p>
+        </div>
+        <div class="card">
+          <h3>Média simples de avaliações</h3>
+          <p>
+            As notas mockadas podem gerar média geral para comparar a qualidade percebida dos
+            estabelecimentos.
+          </p>
+          <p><strong>(4,9 + 4,8 + 4,7 + 4,6 + 4,5 + 4,7) / 6 = 4,70</strong></p>
+        </div>
+      </div>
+      <h3 class="mt-18">Aplicação prática no MVP</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Conceito</th>
+            <th>Aplicação</th>
+            <th>Benefício</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Contagem</td>
+            <td>Total de serviços, categorias, bairros, sugestões e agendamentos.</td>
+            <td>Mostra dimensão do catálogo e evolução do projeto.</td>
+          </tr>
+          <tr>
+            <td>Classificação</td>
+            <td>Ordenação por nota, nome e bairro.</td>
+            <td>Facilita comparação para o tutor.</td>
+          </tr>
+          <tr>
+            <td>Filtragem</td>
+            <td>Interseção entre categoria, bairro e palavra-chave.</td>
+            <td>Reduz ruído e melhora a busca.</td>
+          </tr>
+          <tr>
+            <td>Indicadores</td>
+            <td>Cards estatísticos no admin e na página do PI.</td>
+            <td>Apoia decisões administrativas.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="card mt-18">
+        <h3>Possível gráfico em evolução futura</h3>
+        <p>
+          Com backend, os acessos e buscas poderiam alimentar gráficos reais: serviços mais
+          procurados, bairros com maior demanda, horários mais agendados e categorias com baixa
+          oferta. Esses indicadores ajudariam a comunidade a priorizar novos cadastros.
+        </p>
+      </div>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Cálculos</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">10. Governança de TI e Empreendedorismo</span>
+      <h2>Problema social, viabilidade e valor comunitário</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Análise do problema social</h3>
+          <p>
+            A informação pet local é fragmentada. Tutores dependem de indicações, prints,
+            mensagens antigas e redes sociais. Isso cria barreiras de acesso, principalmente para
+            quem precisa resolver uma demanda com urgência, como vacinação, consulta ou transporte.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Viabilidade da solução</h3>
+          <ul>
+            <li>Baixo custo inicial por usar front-end com dados mockados.</li>
+            <li>Escopo enxuto para primeiro período.</li>
+            <li>Possibilidade de evoluir para backend e banco de dados.</li>
+            <li>Valor claro para tutores e pequenos negócios.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Valor para a comunidade</h3>
+          <ul>
+            <li>Facilita descoberta de prestadores locais.</li>
+            <li>Ajuda pequenos negócios a aparecerem de forma organizada.</li>
+            <li>Reduz tempo de busca dos tutores.</li>
+            <li>Promove confiança por avaliações e revisão administrativa.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Impacto esperado</h3>
+          <ul>
+            <li>Mais visibilidade para serviços de bairro.</li>
+            <li>Melhor acesso a cuidados preventivos para pets.</li>
+            <li>Base para parcerias com ONGs, clínicas e comércios locais.</li>
+            <li>Comunidade participando por meio de sugestões.</li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mt-18">Diferencial empreendedor</h3>
+      <p>
+        O Velaris PetCare pode funcionar como marketplace local de confiança, começando por
+        divulgação e agendamento demonstrativo e evoluindo para planos de visibilidade para
+        empresas, integração com WhatsApp, parcerias com clínicas e relatórios de demanda.
+      </p>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Governança e Empreendedorismo</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">11. Business Model Canvas</span>
+      <h2>Canvas da proposta</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Bloco</th>
+            <th>Velaris PetCare</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segmentos de clientes</td>
+            <td>Tutores de pets, pet shops, clínicas veterinárias, hotéis pet, taxi dog e lojas pet.</td>
+          </tr>
+          <tr>
+            <td>Proposta de valor</td>
+            <td>Centralizar busca, confiança, contato, horários e agendamento de serviços pet locais.</td>
+          </tr>
+          <tr>
+            <td>Canais</td>
+            <td>Site/app responsivo, links compartilháveis, WhatsApp e redes sociais em evolução futura.</td>
+          </tr>
+          <tr>
+            <td>Relacionamento</td>
+            <td>Autoatendimento para tutores, sugestões comunitárias e revisão administrativa.</td>
+          </tr>
+          <tr>
+            <td>Fontes de receita futuras</td>
+            <td>Planos de destaque, assinatura para prestadores, anúncios locais e parcerias.</td>
+          </tr>
+          <tr>
+            <td>Recursos principais</td>
+            <td>Catálogo de serviços, base de avaliações, sistema de busca, marca e equipe de revisão.</td>
+          </tr>
+          <tr>
+            <td>Atividades-chave</td>
+            <td>Cadastro, curadoria, atualização de dados, melhoria da busca e suporte ao usuário.</td>
+          </tr>
+          <tr>
+            <td>Parcerias principais</td>
+            <td>Pet shops, clínicas, ONGs, associações de bairro, fornecedores e profissionais autônomos.</td>
+          </tr>
+          <tr>
+            <td>Estrutura de custos</td>
+            <td>Hospedagem, domínio, manutenção, suporte, design, desenvolvimento e divulgação local.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Business Model Canvas</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">12. Segurança e Governança - Risk IT</span>
+      <h2>Riscos, impactos e ações preventivas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Risco identificado</th>
+            <th>Impacto</th>
+            <th>Ação preventiva</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dados incorretos de estabelecimentos</td>
+            <td>Tutor pode se deslocar para endereço ou horário errado.</td>
+            <td>Validação manual antes da publicação e revisão periódica dos cadastros.</td>
+          </tr>
+          <tr>
+            <td>Informações falsas ou maliciosas</td>
+            <td>Perda de confiança e possível dano ao tutor ou prestador.</td>
+            <td>Fila administrativa para revisar sugestões e canal de denúncia.</td>
+          </tr>
+          <tr>
+            <td>Indisponibilidade do sistema</td>
+            <td>Usuários não conseguem consultar serviços ou agendar.</td>
+            <td>Hospedagem confiável, backup dos dados e monitoramento básico.</td>
+          </tr>
+          <tr>
+            <td>Exposição de dados de usuários</td>
+            <td>Vazamento de contato, endereço e histórico de atendimento.</td>
+            <td>Coleta mínima de dados, controle de acesso e boas práticas de privacidade.</td>
+          </tr>
+          <tr>
+            <td>Agendamento duplicado</td>
+            <td>Conflito de horários e frustração do tutor.</td>
+            <td>Em backend futuro, validar disponibilidade antes da confirmação.</td>
+          </tr>
+          <tr>
+            <td>Avaliações manipuladas</td>
+            <td>Decisões ruins por notas artificiais.</td>
+            <td>Vincular avaliação a atendimento confirmado e detectar comportamento suspeito.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="mt-18">Aplicação conceitual do Risk IT</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Governança de risco</h3>
+          <p>Definir responsáveis por aprovar cadastros, revisar sugestões e manter políticas de uso.</p>
+        </div>
+        <div class="card">
+          <h3>Avaliação de risco</h3>
+          <p>Identificar riscos por probabilidade e impacto antes de publicar novas funções.</p>
+        </div>
+        <div class="card">
+          <h3>Resposta ao risco</h3>
+          <p>Prevenir, mitigar, transferir ou aceitar riscos com plano claro de acompanhamento.</p>
+        </div>
+      </div>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Risk IT</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">13. Dados mockados e categorias</span>
+      <h2>Base demonstrativa do MVP</h2>
+      <h3>Categorias implementadas</h3>
+      <div class="grid-3">
+        <div class="card"><h3>Banho e Tosa</h3><p>Higiene, estética e cuidados de pelo.</p></div>
+        <div class="card"><h3>Clínica Veterinária</h3><p>Consultas, exames e orientação.</p></div>
+        <div class="card"><h3>Hotel Pet</h3><p>Hospedagem, daycare e recreação.</p></div>
+        <div class="card"><h3>Taxi Dog</h3><p>Transporte pet com agendamento.</p></div>
+        <div class="card"><h3>Vacinação</h3><p>Controle e aplicação de vacinas.</p></div>
+        <div class="card"><h3>Produtos Pet</h3><p>Rações, acessórios e itens de cuidado.</p></div>
+      </div>
+      <h3 class="mt-18">Campos principais dos serviços</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Campo</th>
+            <th>Uso na interface</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>id</td><td>Identifica rotas de detalhes e agendamento.</td></tr>
+          <tr><td>name</td><td>Nome do estabelecimento no card e detalhe.</td></tr>
+          <tr><td>category / categoryId</td><td>Filtro por categoria e exibição no card.</td></tr>
+          <tr><td>neighborhood / address</td><td>Busca por bairro e informação de deslocamento.</td></tr>
+          <tr><td>rating / reviewCount</td><td>Comparação por avaliação.</td></tr>
+          <tr><td>hours / hoursSummary</td><td>Horário completo e resumo no card.</td></tr>
+          <tr><td>services</td><td>Lista de serviços oferecidos.</td></tr>
+          <tr><td>specialCare</td><td>Orientações de cuidado especial.</td></tr>
+          <tr><td>keywords</td><td>Busca por palavra-chave.</td></tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Dados mockados</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">14. Integração com as disciplinas</span>
+      <h2>Relação entre matérias e evidências do projeto</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Disciplina</th>
+            <th>Como aparece no projeto</th>
+            <th>Evidência</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Algoritmos e Programação</td>
+            <td>Lógica de busca, filtros, renderização de listas, estados de formulário e dados.</td>
+            <td>Services.jsx, SuggestService.jsx, Agendamento.jsx.</td>
+          </tr>
+          <tr>
+            <td>Engenharia de Software</td>
+            <td>Levantamento de requisitos, casos de uso, rotas, componentização e validação.</td>
+            <td>ProjectInfo.jsx, AppRoutes.jsx, componentes reutilizáveis.</td>
+          </tr>
+          <tr>
+            <td>Matemática Aplicada Computacional</td>
+            <td>Contagens, percentuais, conjuntos, indicadores e gráficos simples por cards/barras.</td>
+            <td>stats.js, DashboardAdmin.jsx, ProjectInfo.jsx.</td>
+          </tr>
+          <tr>
+            <td>Governança de TI</td>
+            <td>Riscos, impacto, ações preventivas, privacidade e revisão administrativa.</td>
+            <td>risks.js, ProjectInfo.jsx, DashboardAdmin.jsx.</td>
+          </tr>
+          <tr>
+            <td>Empreendedorismo</td>
+            <td>Viabilidade, proposta de valor, impacto, público-alvo e Business Model Canvas.</td>
+            <td>ProjectInfo.jsx e este documento.</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="mt-18">Competências associadas do enunciado</h3>
+      <ul>
+        <li>Fundamentar, medir e organizar estruturas e processos de engenharia de software.</li>
+        <li>Elicitar, analisar, especificar e validar requisitos.</li>
+        <li>Selecionar tecnologias adequadas para construção de software.</li>
+        <li>Testar software, avaliar qualidade e gerenciar configuração.</li>
+        <li>Gerenciar processos e qualidade de software em nível introdutório.</li>
+      </ul>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Integração</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">15. Roteiro para apresentação oral</span>
+      <h2>Sugestão de fala para banca</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>1. Abertura</h3>
+          <p>
+            Apresentar o nome Velaris PetCare, o slogan e o tema do PI. Explicar que o recorte
+            escolhido foi serviços pet comunitários por ser um problema real de divulgação local.
+          </p>
+        </div>
+        <div class="card">
+          <h3>2. Problema e público</h3>
+          <p>
+            Mostrar que tutores enfrentam informações dispersas e pequenos prestadores têm baixa
+            visibilidade. Citar tutores, pet shops, clínicas, prestadores móveis e comunidade.
+          </p>
+        </div>
+        <div class="card">
+          <h3>3. Demonstração do sistema</h3>
+          <p>
+            Abrir Home, buscar serviço, filtrar por categoria, entrar em detalhes, simular
+            agendamento, enviar sugestão fake e mostrar o DashboardAdmin.
+          </p>
+        </div>
+        <div class="card">
+          <h3>4. Integração das matérias</h3>
+          <p>
+            Relacionar busca e filtros a Algoritmos; requisitos e casos de uso a Engenharia;
+            contagens e indicadores a Matemática; riscos, viabilidade e Canvas a Governança e
+            Empreendedorismo.
+          </p>
+        </div>
+      </div>
+      <h3 class="mt-18">Perguntas prováveis e respostas rápidas</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Pergunta</th>
+            <th>Resposta sugerida</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Por que escolher serviços pet?</td>
+            <td>É um recorte comunitário claro, com pequenos negócios e necessidade real de confiança.</td>
+          </tr>
+          <tr>
+            <td>Tem backend?</td>
+            <td>Não. O escopo é MVP front-end com dados mockados, pronto para evoluir.</td>
+          </tr>
+          <tr>
+            <td>Como os dados seriam validados?</td>
+            <td>Por revisão administrativa, confirmação de contato e atualização periódica.</td>
+          </tr>
+          <tr>
+            <td>Onde entra matemática?</td>
+            <td>Contagens, indicadores, médias, percentuais, filtros por conjuntos e gráficos simples.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Roteiro de apresentação</span></div>
+    </section>
+
+    <section class="page">
+      <span class="badge">16. Conclusão</span>
+      <h2>Resultado final e próximos passos</h2>
+      <div class="card">
+        <p>
+          O Velaris PetCare atende ao tema "Conecta Comunidade" ao propor uma solução simples,
+          navegável e viável para divulgar serviços de interesse local. O projeto demonstra
+          planejamento, requisitos, busca, filtragem, prototipação, indicadores, análise de risco e
+          visão empreendedora, respeitando o escopo do primeiro período.
+        </p>
+      </div>
+      <div class="grid-2 mt-18">
+        <div class="card">
+          <h3>O que está pronto</h3>
+          <ul>
+            <li>Home com apresentação do projeto.</li>
+            <li>Listagem por categoria e busca funcional.</li>
+            <li>Detalhes de serviços com cuidados especiais.</li>
+            <li>Agendamento e sugestão com sucesso fake.</li>
+            <li>DashboardAdmin conceitual.</li>
+            <li>Página de PI com matemática, engenharia e governança.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Próximos passos</h3>
+          <ul>
+            <li>Coletar feedback de tutores e prestadores reais.</li>
+            <li>Priorizar backend e banco de dados.</li>
+            <li>Validar dados dos estabelecimentos.</li>
+            <li>Adicionar autenticação e permissões.</li>
+            <li>Medir buscas e agendamentos reais.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="quote mt-18">
+        Mensagem central para a apresentação: o projeto é tecnicamente simples, mas socialmente útil,
+        viável para MVP e preparado para evoluir com dados reais da comunidade.
+      </div>
+      <div class="footer-note"><span>Velaris PetCare</span><span>Conclusão</span></div>
+    </section>
+  </body>
+</html>
