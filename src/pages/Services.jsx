@@ -13,15 +13,15 @@ export function Services() {
   const location = params.get('local') ?? ''
   const bairro = params.get('bairro') ?? ''
   const categoria = params.get('categoria') ?? ''
-  const minRating = params.get('min') ?? ''
-  const sort = params.get('ordenar') ?? 'rating'
 
   function patchParams(updates) {
     const next = new URLSearchParams(params)
+
     Object.entries(updates).forEach(([key, value]) => {
       if (value === '' || value == null) next.delete(key)
       else next.set(key, String(value))
     })
+
     setParams(next, { replace: true })
   }
 
@@ -31,17 +31,15 @@ export function Services() {
   )
 
   const filtered = useMemo(() => {
-    let list = [...mockPetShops]
-    const q = query.trim().toLowerCase()
-    const loc = location.trim().toLowerCase()
+    const search = query.trim().toLowerCase()
+    const local = location.trim().toLowerCase()
 
-    if (q) {
-      list = list.filter((service) => {
-        const haystack = [
+    return mockPetShops
+      .filter((service) => {
+        const text = [
           service.name,
           service.category,
           service.description,
-          service.tagline,
           service.neighborhood,
           service.city,
           ...service.services,
@@ -49,32 +47,21 @@ export function Services() {
         ]
           .join(' ')
           .toLowerCase()
-        return haystack.includes(q)
+
+        const matchesSearch = !search || text.includes(search)
+        const matchesLocation =
+          !local ||
+          [service.neighborhood, service.city, service.address]
+            .join(' ')
+            .toLowerCase()
+            .includes(local)
+        const matchesBairro = !bairro || service.neighborhood === bairro
+        const matchesCategoria = !categoria || service.serviceIds?.includes(categoria)
+
+        return matchesSearch && matchesLocation && matchesBairro && matchesCategoria
       })
-    }
-
-    if (loc) {
-      list = list.filter((service) =>
-        [service.neighborhood, service.city, service.address].join(' ').toLowerCase().includes(loc),
-      )
-    }
-
-    if (bairro) list = list.filter((service) => service.neighborhood === bairro)
-    if (categoria) list = list.filter((service) => service.serviceIds?.includes(categoria))
-
-    if (minRating) {
-      const minimum = Number(minRating)
-      if (!Number.isNaN(minimum)) list = list.filter((service) => service.rating >= minimum)
-    }
-
-    if (sort === 'rating') list.sort((a, b) => b.rating - a.rating)
-    if (sort === 'name') list.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))
-    if (sort === 'bairro') {
-      list.sort((a, b) => a.neighborhood.localeCompare(b.neighborhood, 'pt-BR'))
-    }
-
-    return list
-  }, [query, location, bairro, categoria, minRating, sort])
+      .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))
+  }, [query, location, bairro, categoria])
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
@@ -84,10 +71,10 @@ export function Services() {
             Serviços pet comunitários
           </p>
           <h1 className="mt-1 text-3xl font-bold text-velaris-950">
-            Busque serviços e estabelecimentos
+            Buscar serviços e estabelecimentos
           </h1>
           <p className="mt-1 max-w-2xl text-slate-600">
-            Filtre por nome, bairro, categoria ou palavra-chave usando dados mockados do MVP.
+            Busca simples por nome, bairro, categoria ou palavra-chave, usando dados mockados.
           </p>
         </div>
         <Link
@@ -107,7 +94,7 @@ export function Services() {
         className="mb-6"
       />
 
-      <section className="mb-6 rounded-3xl border border-velaris-100 bg-white p-4 shadow-sm">
+      <section className="mb-6 rounded-2xl border border-velaris-100 bg-white p-4 shadow-sm">
         <p className="mb-3 text-sm font-semibold text-velaris-950">Categorias</p>
         <CategoryFilter
           categories={serviceCategories}
@@ -116,12 +103,12 @@ export function Services() {
         />
       </section>
 
-      <div className="mb-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mb-8 grid gap-3 sm:grid-cols-2">
         <label className="text-sm font-medium text-velaris-900">
           Bairro
           <select
             value={bairro}
-            onChange={(e) => patchParams({ bairro: e.target.value })}
+            onChange={(event) => patchParams({ bairro: event.target.value })}
             className="mt-1 w-full rounded-xl border border-velaris-200 bg-white px-3 py-2.5 text-slate-800 outline-none focus:ring-2 focus:ring-velaris-400"
           >
             <option value="">Todos</option>
@@ -132,11 +119,12 @@ export function Services() {
             ))}
           </select>
         </label>
+
         <label className="text-sm font-medium text-velaris-900">
           Categoria
           <select
             value={categoria}
-            onChange={(e) => patchParams({ categoria: e.target.value })}
+            onChange={(event) => patchParams({ categoria: event.target.value })}
             className="mt-1 w-full rounded-xl border border-velaris-200 bg-white px-3 py-2.5 outline-none focus:ring-2 focus:ring-velaris-400"
           >
             <option value="">Todas</option>
@@ -147,31 +135,6 @@ export function Services() {
             ))}
           </select>
         </label>
-        <label className="text-sm font-medium text-velaris-900">
-          Avaliação mín.
-          <select
-            value={minRating}
-            onChange={(e) => patchParams({ min: e.target.value })}
-            className="mt-1 w-full rounded-xl border border-velaris-200 bg-white px-3 py-2.5 outline-none focus:ring-2 focus:ring-velaris-400"
-          >
-            <option value="">Qualquer</option>
-            <option value="4.5">4.5+</option>
-            <option value="4.7">4.7+</option>
-            <option value="4.9">4.9+</option>
-          </select>
-        </label>
-        <label className="text-sm font-medium text-velaris-900">
-          Ordenar
-          <select
-            value={sort}
-            onChange={(e) => patchParams({ ordenar: e.target.value })}
-            className="mt-1 w-full rounded-xl border border-velaris-200 bg-white px-3 py-2.5 outline-none focus:ring-2 focus:ring-velaris-400"
-          >
-            <option value="rating">Melhor avaliação</option>
-            <option value="name">Nome (A-Z)</option>
-            <option value="bairro">Bairro</option>
-          </select>
-        </label>
       </div>
 
       <p className="mb-4 text-sm text-slate-500">{filtered.length} resultado(s)</p>
@@ -180,6 +143,7 @@ export function Services() {
         {filtered.map((service) => (
           <ServiceCard key={service.id} service={service} variant="list" />
         ))}
+
         {filtered.length === 0 && (
           <p className="rounded-2xl border border-dashed border-velaris-200 bg-white py-12 text-center text-slate-600">
             Nenhum serviço encontrado com esses filtros.
