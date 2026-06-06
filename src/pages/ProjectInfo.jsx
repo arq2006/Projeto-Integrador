@@ -1,3 +1,4 @@
+import { CategoryPieChart } from '../components/CategoryPieChart'
 import { getCategoryCounts, governanceRisks, mockStats } from '../data'
 
 const functionalRequirements = [
@@ -109,7 +110,7 @@ export function ProjectInfo() {
               'Contagem de serviços por categoria.',
               'Total de agendamentos simulados.',
               'Total de sugestões recebidas.',
-              'Representação visual simples com cards e barras.',
+              'Representação visual simples com cards, barras e gráfico de pizza.',
             ]}
           />
         </InfoBox>
@@ -157,6 +158,17 @@ export function ProjectInfo() {
         <SimpleStat label="Agendamentos simulados" value={mockStats.simulatedAppointments} />
         <SimpleStat label="Sugestões recebidas" value={mockStats.suggestionsReceived} />
       </div>
+
+      <div className="mt-5">
+        <CategoryPieChart data={categoryCounts} />
+        <p className="mt-3 rounded-2xl bg-velaris-50 p-4 text-sm leading-6 text-slate-700">
+          Os dados apresentados são simulados com base nos serviços cadastrados no MVP. Como existem
+          6 serviços distribuídos em 6 categorias, cada categoria representa 1/6 do total,
+          aproximadamente 16,67%. Essa contagem ajuda a visualizar a distribuição dos serviços
+          dentro da plataforma.
+        </p>
+      </div>
+
       <div className="mt-5 rounded-2xl border border-velaris-100 bg-white p-5 shadow-sm">
         <h3 className="text-lg font-semibold text-velaris-950">Serviços por categoria</h3>
         <div className="mt-4 space-y-3">
